@@ -1,0 +1,2431 @@
+2023-06-08 17:40:42.236554 [info]: m_read_idx:496
+2023-06-08 17:40:42.236599 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:42.236619 [info]: adjust timer once
+2023-06-08 17:40:42.236691 [info]: GET / HTTP/1.1
+2023-06-08 17:40:42.236898 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-08 17:40:42.236924 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.236930 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.236933 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.236937 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.236940 [info]: 
+2023-06-08 17:40:42.236859 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:42.236866 [info]: Connection: keep-alive
+2023-06-08 17:40:42.236868 [info]: Cache-Control: max-age=0
+2023-06-08 17:40:42.236869 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-06-08 17:40:42.236871 [info]: Upgrade-Insecure-Requests: 1
+2023-06-08 17:40:42.236872 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-06-08 17:40:42.236874 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.236893 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.236897 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-08 17:40:42.237168 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:42.237192 [info]: do_request - m_url: /main.html
+
+2023-06-08 17:40:42.237197 [info]: do_request - p: /main.html
+
+2023-06-08 17:40:42.237200 [info]: 判断完毕 ----- m_real_file: ./new_root/main.html
+
+2023-06-08 17:40:42.237217 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:42.237267 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+
+
+2023-06-08 17:40:42.237271 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+Connection:keep-alive
+
+
+2023-06-08 17:40:42.237273 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:42.237660 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:42.237732 [info]: adjust timer once
+2023-06-08 17:40:42.299506 [info]: m_read_idx:376
+2023-06-08 17:40:42.299564 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:42.299642 [info]: adjust timer once
+2023-06-08 17:40:42.299684 [info]: GET /main.css HTTP/1.1
+2023-06-08 17:40:42.299754 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:42.299771 [info]: Connection: keep-alive
+2023-06-08 17:40:42.299774 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.299821 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.299825 [info]: Accept: text/css,*/*;q=0.1
+2023-06-08 17:40:42.299837 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-08 17:40:42.299840 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.299868 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.299882 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.299885 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.299886 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.299891 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.299893 [info]: 
+2023-06-08 17:40:42.300092 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:42.300112 [info]: do_request - m_url: /main.css
+
+2023-06-08 17:40:42.300117 [info]: do_request - p: /main.css
+
+2023-06-08 17:40:42.300121 [info]: 判断完毕 ----- m_real_file: ./new_root/main.css
+
+2023-06-08 17:40:42.300150 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:42.300204 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+
+
+2023-06-08 17:40:42.300208 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+Connection:keep-alive
+
+
+2023-06-08 17:40:42.300224 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:42.300641 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:42.300729 [info]: adjust timer once
+2023-06-08 17:40:42.301925 [info]: m_read_idx:375
+2023-06-08 17:40:42.301958 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:42.302024 [info]: adjust timer once
+2023-06-08 17:40:42.302397 [info]: GET /log.css HTTP/1.1
+2023-06-08 17:40:42.302482 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:42.302490 [info]: Connection: keep-alive
+2023-06-08 17:40:42.302492 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.302494 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.302496 [info]: Accept: text/css,*/*;q=0.1
+2023-06-08 17:40:42.302497 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-08 17:40:42.302554 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.302558 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.302560 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.302563 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.302564 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.302576 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.302582 [info]: 
+2023-06-08 17:40:42.302806 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:42.302838 [info]: do_request - m_url: /log.css
+
+2023-06-08 17:40:42.302844 [info]: do_request - p: /log.css
+
+2023-06-08 17:40:42.302848 [info]: 判断完毕 ----- m_real_file: ./new_root/log.css
+
+2023-06-08 17:40:42.302888 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:42.302944 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+
+
+2023-06-08 17:40:42.302948 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+Connection:keep-alive
+
+
+2023-06-08 17:40:42.302949 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:42.302914 [info]: m_read_idx:359
+2023-06-08 17:40:42.302999 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:42.303063 [info]: adjust timer once
+2023-06-08 17:40:42.303091 [info]: GET /vue.js HTTP/1.1
+2023-06-08 17:40:42.303290 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:42.303319 [info]: Connection: keep-alive
+2023-06-08 17:40:42.303373 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:42.303375 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.303485 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.303528 [info]: 
+2023-06-08 17:40:42.303381 [info]: adjust timer once
+2023-06-08 17:40:42.303457 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.303463 [info]: Accept: */*
+2023-06-08 17:40:42.303464 [info]: oop!unknow header: Accept: */*
+2023-06-08 17:40:42.303466 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.303467 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.303468 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.303469 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.303481 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.303776 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:42.303812 [info]: do_request - m_url: /vue.js
+
+2023-06-08 17:40:42.303817 [info]: do_request - p: /vue.js
+
+2023-06-08 17:40:42.303821 [info]: 判断完毕 ----- m_real_file: ./new_root/vue.js
+
+2023-06-08 17:40:42.304336 [info]: m_read_idx:365
+2023-06-08 17:40:42.304362 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:42.304434 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+
+
+2023-06-08 17:40:42.304439 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+Connection:keep-alive
+
+
+2023-06-08 17:40:42.304440 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:42.304365 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:42.304549 [info]: adjust timer once
+2023-06-08 17:40:42.304601 [info]: GET /axios.min.js HTTP/1.1
+2023-06-08 17:40:42.304681 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:42.304606 [info]: m_read_idx:360
+2023-06-08 17:40:42.304789 [info]: adjust timer once
+2023-06-08 17:40:42.304706 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:42.304714 [info]: Connection: keep-alive
+2023-06-08 17:40:42.304717 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.304719 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.304721 [info]: Accept: */*
+2023-06-08 17:40:42.304724 [info]: oop!unknow header: Accept: */*
+2023-06-08 17:40:42.304726 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.304729 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.304816 [info]: GET /main.js HTTP/1.1
+2023-06-08 17:40:42.304892 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.305061 [info]: oop!unknow header: Accept: */*
+2023-06-08 17:40:42.305099 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.305106 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:42.305110 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.304841 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:42.304966 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.304985 [info]: Connection: keep-alive
+2023-06-08 17:40:42.305004 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.305008 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:42.305022 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.305041 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.305045 [info]: 
+2023-06-08 17:40:42.305056 [info]: Accept: */*
+2023-06-08 17:40:42.305113 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:42.305154 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.305158 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:42.305163 [info]: 
+2023-06-08 17:40:42.305274 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:42.305293 [info]: do_request - m_url: /axios.min.js
+
+2023-06-08 17:40:42.305297 [info]: do_request - p: /axios.min.js
+
+2023-06-08 17:40:42.305302 [info]: 判断完毕 ----- m_real_file: ./new_root/axios.min.js
+
+2023-06-08 17:40:42.305358 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:42.305426 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+
+
+2023-06-08 17:40:42.305431 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+Connection:keep-alive
+
+
+2023-06-08 17:40:42.305433 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:42.305490 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:42.305525 [info]: do_request - m_url: /main.js
+
+2023-06-08 17:40:42.305530 [info]: do_request - p: /main.js
+
+2023-06-08 17:40:42.305536 [info]: 判断完毕 ----- m_real_file: ./new_root/main.js
+
+2023-06-08 17:40:42.305559 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:42.305617 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+
+
+2023-06-08 17:40:42.305621 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+Connection:keep-alive
+
+
+2023-06-08 17:40:42.305623 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:42.306063 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:42.306108 [info]: adjust timer once
+2023-06-08 17:40:42.306396 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:42.306457 [info]: adjust timer once
+2023-06-08 17:40:42.306521 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:42.306621 [info]: adjust timer once
+2023-06-08 17:40:42.306777 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:42.306831 [info]: adjust timer once
+2023-06-08 17:40:45.831136 [info]: m_read_idx:414
+2023-06-08 17:40:45.831204 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:45.831306 [info]: adjust timer once
+2023-06-08 17:40:45.831328 [info]: m_read_idx:418
+2023-06-08 17:40:45.831343 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:45.831479 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:45.831480 [info]: GET /cover/cover.png HTTP/1.1
+2023-06-08 17:40:45.831518 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:45.831566 [info]: Connection: keep-alive
+2023-06-08 17:40:45.831609 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:45.831418 [info]: adjust timer once
+2023-06-08 17:40:45.831485 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:45.831632 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:45.831820 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 17:40:45.831830 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 17:40:45.831865 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:45.831873 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:45.831876 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:45.831889 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:45.831914 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:45.831919 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:45.831778 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:45.831390 [info]: GET /default.png HTTP/1.1
+2023-06-08 17:40:45.831943 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:45.831951 [info]: 
+2023-06-08 17:40:45.831462 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:45.831469 [info]: Connection: keep-alive
+2023-06-08 17:40:45.831471 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:45.831473 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:45.831474 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 17:40:45.831475 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 17:40:45.831477 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:45.831478 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:45.831922 [info]: 
+2023-06-08 17:40:45.832189 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:45.832208 [info]: do_request - m_url: /default.png
+
+2023-06-08 17:40:45.832212 [info]: do_request - p: /default.png
+
+2023-06-08 17:40:45.832216 [info]: 判断完毕 ----- m_real_file: ./new_root/default.png
+
+2023-06-08 17:40:45.832257 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:45.832293 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+
+
+2023-06-08 17:40:45.832297 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+Connection:keep-alive
+
+
+2023-06-08 17:40:45.832298 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:45.832328 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:45.832338 [info]: do_request - m_url: /cover/cover.png
+
+2023-06-08 17:40:45.832340 [info]: do_request - p: /cover.png
+
+2023-06-08 17:40:45.832343 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/cover.png
+
+2023-06-08 17:40:45.832356 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:45.832414 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+
+
+2023-06-08 17:40:45.832423 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+Connection:keep-alive
+
+
+2023-06-08 17:40:45.832425 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:45.833076 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:45.833156 [info]: adjust timer once
+2023-06-08 17:40:45.833520 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:45.833604 [info]: adjust timer once
+2023-06-08 17:40:45.845059 [info]: m_read_idx:457
+2023-06-08 17:40:45.845118 [info]: deal with the client(172.23.0.1)
+2023-06-08 17:40:45.845190 [info]: adjust timer once
+2023-06-08 17:40:45.845241 [info]: GET /favicon.ico HTTP/1.1
+2023-06-08 17:40:45.845314 [info]: Host: 172.23.1.8:5000
+2023-06-08 17:40:45.845320 [info]: Connection: keep-alive
+2023-06-08 17:40:45.845324 [info]: Pragma: no-cache
+2023-06-08 17:40:45.845326 [info]: oop!unknow header: Pragma: no-cache
+2023-06-08 17:40:45.845328 [info]: Cache-Control: no-cache
+2023-06-08 17:40:45.845329 [info]: oop!unknow header: Cache-Control: no-cache
+2023-06-08 17:40:45.845379 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:45.845447 [info]: 
+2023-06-08 17:40:45.845394 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-08 17:40:45.845398 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 17:40:45.845399 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 17:40:45.845401 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:45.845404 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 17:40:45.845405 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:45.845406 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 17:40:45.845442 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:45.845446 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 17:40:45.845721 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 17:40:45.845742 [info]: do_request - m_url: /favicon.ico
+
+2023-06-08 17:40:45.845745 [info]: do_request - p: /favicon.ico
+
+2023-06-08 17:40:45.845750 [info]: 判断完毕 ----- m_real_file: ./new_root/favicon.ico
+
+2023-06-08 17:40:45.845775 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 17:40:45.845832 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+
+
+2023-06-08 17:40:45.845844 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-06-08 17:40:45.845858 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+
+2023-06-08 17:40:45.846358 [info]: send data to the client(172.23.0.1)
+2023-06-08 17:40:45.846455 [info]: adjust timer once
+2023-06-08 17:47:12.252884 [info]: close fd 21
+2023-06-08 17:47:12.252970 [info]: close fd 24
+2023-06-08 17:47:12.252978 [info]: close fd 17
+2023-06-08 20:40:16.214264 [info]: m_read_idx:496
+
+2023-06-08 20:40:16.214332 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.214402 [info]: GET / HTTP/1.1
+2023-06-08 20:40:16.214412 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.214414 [info]: Connection: keep-alive
+2023-06-08 20:40:16.214361 [info]: adjust timer once
+2023-06-08 20:40:16.214416 [info]: Cache-Control: max-age=0
+2023-06-08 20:40:16.214572 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-06-08 20:40:16.214599 [info]: Upgrade-Insecure-Requests: 1
+2023-06-08 20:40:16.214620 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-06-08 20:40:16.214627 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.214649 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.214655 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-08 20:40:16.214673 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-08 20:40:16.214677 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.214695 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.214700 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.214703 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.214705 [info]: 
+2023-06-08 20:40:16.214958 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.214986 [info]: do_request - m_url: /main.html
+
+2023-06-08 20:40:16.214990 [info]: do_request - p: /main.html
+
+2023-06-08 20:40:16.214991 [info]: cgi: 0
+
+2023-06-08 20:40:16.214995 [info]: 判断完毕 ----- m_real_file: ./new_root/main.html
+
+2023-06-08 20:40:16.215010 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.215042 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+
+
+2023-06-08 20:40:16.215049 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.215063 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.215677 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.215966 [info]: adjust timer once
+2023-06-08 20:40:16.278612 [info]: m_read_idx:376
+
+2023-06-08 20:40:16.278683 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.278776 [info]: adjust timer once
+2023-06-08 20:40:16.278838 [info]: GET /main.css HTTP/1.1
+2023-06-08 20:40:16.278910 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.278916 [info]: Connection: keep-alive
+2023-06-08 20:40:16.278948 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.279032 [info]: 
+2023-06-08 20:40:16.278953 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.279002 [info]: Accept: text/css,*/*;q=0.1
+2023-06-08 20:40:16.279006 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-08 20:40:16.279008 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.279009 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.279024 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.279027 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.279029 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.279031 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.279243 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.279268 [info]: do_request - m_url: /main.css
+
+2023-06-08 20:40:16.279272 [info]: do_request - p: /main.css
+
+2023-06-08 20:40:16.279274 [info]: cgi: 0
+
+2023-06-08 20:40:16.279277 [info]: 判断完毕 ----- m_real_file: ./new_root/main.css
+
+2023-06-08 20:40:16.279290 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.279340 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+
+
+2023-06-08 20:40:16.279344 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.279346 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.279813 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.279929 [info]: adjust timer once
+2023-06-08 20:40:16.281859 [info]: m_read_idx:375
+
+2023-06-08 20:40:16.281940 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.282035 [info]: adjust timer once
+2023-06-08 20:40:16.282088 [info]: GET /log.css HTTP/1.1
+2023-06-08 20:40:16.282142 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.282148 [info]: Connection: keep-alive
+2023-06-08 20:40:16.282151 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.282153 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.282155 [info]: Accept: text/css,*/*;q=0.1
+2023-06-08 20:40:16.282163 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-08 20:40:16.282186 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.282193 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.282199 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.282223 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.282227 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.282228 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.282233 [info]: 
+2023-06-08 20:40:16.282428 [info]: m_read_idx:359
+
+2023-06-08 20:40:16.282486 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.282566 [info]: adjust timer once
+2023-06-08 20:40:16.282670 [info]: GET /vue.js HTTP/1.1
+2023-06-08 20:40:16.282786 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.282861 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.282893 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.282793 [info]: Connection: keep-alive
+2023-06-08 20:40:16.282901 [info]: 
+2023-06-08 20:40:16.282824 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.282829 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.282831 [info]: Accept: */*
+2023-06-08 20:40:16.282848 [info]: oop!unknow header: Accept: */*
+2023-06-08 20:40:16.282851 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.282854 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.282855 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.282858 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.282799 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.282951 [info]: do_request - m_url: /log.css
+
+2023-06-08 20:40:16.282958 [info]: do_request - p: /log.css
+
+2023-06-08 20:40:16.283001 [info]: cgi: 0
+
+2023-06-08 20:40:16.283011 [info]: 判断完毕 ----- m_real_file: ./new_root/log.css
+
+2023-06-08 20:40:16.283322 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.283410 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+
+
+2023-06-08 20:40:16.283417 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.283433 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.283483 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.283516 [info]: do_request - m_url: /vue.js
+
+2023-06-08 20:40:16.283522 [info]: do_request - p: /vue.js
+
+2023-06-08 20:40:16.283523 [info]: cgi: 0
+
+2023-06-08 20:40:16.283527 [info]: 判断完毕 ----- m_real_file: ./new_root/vue.js
+
+2023-06-08 20:40:16.283696 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.283768 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+
+
+2023-06-08 20:40:16.283772 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.283774 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.284554 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.284655 [info]: adjust timer once
+2023-06-08 20:40:16.284666 [info]: m_read_idx:365
+
+2023-06-08 20:40:16.284668 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.284697 [info]: adjust timer once
+2023-06-08 20:40:16.284725 [info]: m_read_idx:360
+
+2023-06-08 20:40:16.284730 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.284750 [info]: GET /main.js HTTP/1.1
+2023-06-08 20:40:16.284925 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.284941 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.284948 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.284951 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.284967 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.284997 [info]: 
+2023-06-08 20:40:16.285026 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.285066 [info]: Connection: keep-alive
+2023-06-08 20:40:16.285086 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.284731 [info]: GET /axios.min.js HTTP/1.1
+2023-06-08 20:40:16.284735 [info]: adjust timer once
+2023-06-08 20:40:16.284844 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.284866 [info]: Connection: keep-alive
+2023-06-08 20:40:16.284871 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.284874 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.284876 [info]: Accept: */*
+2023-06-08 20:40:16.284918 [info]: oop!unknow header: Accept: */*
+2023-06-08 20:40:16.284923 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.285092 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.285177 [info]: Accept: */*
+2023-06-08 20:40:16.285184 [info]: oop!unknow header: Accept: */*
+2023-06-08 20:40:16.285217 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.285222 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.285224 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.285225 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.285226 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.285236 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.285251 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.285253 [info]: do_request - m_url: /main.js
+
+2023-06-08 20:40:16.285256 [info]: do_request - p: /main.js
+
+2023-06-08 20:40:16.285257 [info]: cgi: 0
+
+2023-06-08 20:40:16.285255 [info]: 
+2023-06-08 20:40:16.285262 [info]: 判断完毕 ----- m_real_file: ./new_root/main.js
+
+2023-06-08 20:40:16.285295 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.285353 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+
+
+2023-06-08 20:40:16.285358 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.285361 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.285513 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.285546 [info]: do_request - m_url: /axios.min.js
+
+2023-06-08 20:40:16.285550 [info]: do_request - p: /axios.min.js
+
+2023-06-08 20:40:16.285551 [info]: cgi: 0
+
+2023-06-08 20:40:16.285555 [info]: 判断完毕 ----- m_real_file: ./new_root/axios.min.js
+
+2023-06-08 20:40:16.285566 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.285610 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+
+
+2023-06-08 20:40:16.285615 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.285617 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.286275 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.286309 [info]: adjust timer once
+2023-06-08 20:40:16.286979 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.287099 [info]: adjust timer once
+2023-06-08 20:40:16.287465 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.287562 [info]: adjust timer once
+2023-06-08 20:40:16.287686 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.287765 [info]: adjust timer once
+2023-06-08 20:40:16.736378 [info]: m_read_idx:414
+
+2023-06-08 20:40:16.736421 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.736565 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:40:16.736609 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.736614 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.736616 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.736618 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.736621 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.736623 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.736631 [info]: 
+2023-06-08 20:40:16.736639 [info]: adjust timer once
+2023-06-08 20:40:16.736481 [info]: adjust timer once
+2023-06-08 20:40:16.736501 [info]: m_read_idx:418
+
+2023-06-08 20:40:16.736505 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.736549 [info]: GET /default.png HTTP/1.1
+2023-06-08 20:40:16.736559 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.736560 [info]: Connection: keep-alive
+2023-06-08 20:40:16.736562 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.736564 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.736605 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:40:16.736809 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.736813 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.736815 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.736817 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.736747 [info]: GET /cover/cover.png HTTP/1.1
+2023-06-08 20:40:16.736790 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.736796 [info]: Connection: keep-alive
+2023-06-08 20:40:16.736797 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.736799 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.736800 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:40:16.736802 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:40:16.736807 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.736819 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.736821 [info]: 
+2023-06-08 20:40:16.737152 [info]: cgi: 0
+
+2023-06-08 20:40:16.737137 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+
+
+2023-06-08 20:40:16.737155 [info]: 判断完毕 ----- m_real_file: ./new_root/default.png
+
+2023-06-08 20:40:16.737162 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.737174 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.737176 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.737194 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+
+
+2023-06-08 20:40:16.737197 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.737199 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.737053 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.737072 [info]: do_request - m_url: /cover/cover.png
+
+2023-06-08 20:40:16.737076 [info]: do_request - p: /cover.png
+
+2023-06-08 20:40:16.737078 [info]: cgi: 0
+
+2023-06-08 20:40:16.737081 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/cover.png
+
+2023-06-08 20:40:16.737100 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.737130 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.737136 [info]: do_request - m_url: /default.png
+
+2023-06-08 20:40:16.737149 [info]: do_request - p: /default.png
+
+2023-06-08 20:40:16.737594 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.737642 [info]: adjust timer once
+2023-06-08 20:40:16.738190 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.738251 [info]: adjust timer once
+2023-06-08 20:40:16.764506 [info]: m_read_idx:457
+
+2023-06-08 20:40:16.764552 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:16.764679 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.764689 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:16.764692 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:40:16.764695 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:40:16.764616 [info]: adjust timer once
+2023-06-08 20:40:16.764658 [info]: GET /favicon.ico HTTP/1.1
+2023-06-08 20:40:16.764670 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:16.764672 [info]: Connection: keep-alive
+2023-06-08 20:40:16.764729 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.764745 [info]: 
+2023-06-08 20:40:16.764674 [info]: Pragma: no-cache
+2023-06-08 20:40:16.764675 [info]: oop!unknow header: Pragma: no-cache
+2023-06-08 20:40:16.764676 [info]: Cache-Control: no-cache
+2023-06-08 20:40:16.764678 [info]: oop!unknow header: Cache-Control: no-cache
+2023-06-08 20:40:16.764697 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.764704 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:16.764705 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.764724 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:16.764728 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:16.764948 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:16.764968 [info]: do_request - m_url: /favicon.ico
+
+2023-06-08 20:40:16.764972 [info]: do_request - p: /favicon.ico
+
+2023-06-08 20:40:16.764973 [info]: cgi: 0
+
+2023-06-08 20:40:16.764976 [info]: 判断完毕 ----- m_real_file: ./new_root/favicon.ico
+
+2023-06-08 20:40:16.764988 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:16.765036 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+
+
+2023-06-08 20:40:16.765040 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-06-08 20:40:16.765043 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:16.765480 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:16.765547 [info]: adjust timer once
+2023-06-08 20:40:37.011711 [info]: m_read_idx:376
+
+2023-06-08 20:40:37.011777 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:37.011898 [info]: adjust timer once
+2023-06-08 20:40:37.011960 [info]: GET /main.css HTTP/1.1
+2023-06-08 20:40:37.012027 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:37.012056 [info]: Connection: keep-alive
+2023-06-08 20:40:37.012062 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:37.012065 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:37.012068 [info]: Accept: text/css,*/*;q=0.1
+2023-06-08 20:40:37.012070 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-08 20:40:37.012078 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:37.012083 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:37.012116 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:37.012187 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:37.012196 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:37.012206 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:37.012209 [info]: 
+2023-06-08 20:40:37.012156 [info]: m_read_idx:375
+
+2023-06-08 20:40:37.012267 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:40:37.012399 [info]: adjust timer once
+2023-06-08 20:40:37.012484 [info]: GET /log.css HTTP/1.1
+2023-06-08 20:40:37.012535 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:37.012541 [info]: do_request - m_url: /main.css
+
+2023-06-08 20:40:37.012542 [info]: do_request - p: /main.css
+
+2023-06-08 20:40:37.012544 [info]: cgi: 0
+
+2023-06-08 20:40:37.012548 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:40:37.012549 [info]: 判断完毕 ----- m_real_file: ./new_root/main.css
+
+2023-06-08 20:40:37.012554 [info]: Connection: keep-alive
+2023-06-08 20:40:37.012572 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:37.012630 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:37.012742 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:37.012835 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:37.012869 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:40:37.012901 [info]: 
+2023-06-08 20:40:37.012648 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+
+
+2023-06-08 20:40:37.012701 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+Connection:keep-alive
+
+
+2023-06-08 20:40:37.012706 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:37.012648 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:40:37.012733 [info]: Accept: text/css,*/*;q=0.1
+2023-06-08 20:40:37.012738 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-08 20:40:37.012740 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:37.012741 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:40:37.012829 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:40:37.012804 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:37.013003 [info]: adjust timer once
+2023-06-08 20:40:37.013334 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:40:37.013380 [info]: do_request - m_url: /log.css
+
+2023-06-08 20:40:37.013387 [info]: do_request - p: /log.css
+
+2023-06-08 20:40:37.013389 [info]: cgi: 0
+
+2023-06-08 20:40:37.013396 [info]: 判断完毕 ----- m_real_file: ./new_root/log.css
+
+2023-06-08 20:40:37.013430 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:40:37.013541 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+
+
+2023-06-08 20:40:37.013551 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+Connection:keep-alive
+
+
+2023-06-08 20:40:37.013556 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+Connection:keep-alive
+
+
+
+2023-06-08 20:40:37.013867 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:40:37.014001 [info]: adjust timer once
+2023-06-08 20:42:11.642383 [info]: m_read_idx:521
+
+2023-06-08 20:42:11.642435 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:42:11.642522 [info]: adjust timer once
+2023-06-08 20:42:11.642703 [info]: Content-Type: application/x-www-form-urlencoded
+2023-06-08 20:42:11.642707 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2023-06-08 20:42:11.642612 [info]: POST /3CGISQL.cgi HTTP/1.1
+2023-06-08 20:42:11.642688 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:42:11.642694 [info]: Connection: keep-alive
+2023-06-08 20:42:11.642695 [info]: Content-Length: 25
+2023-06-08 20:42:11.642697 [info]: Accept: application/json, text/plain, */*
+2023-06-08 20:42:11.642698 [info]: oop!unknow header: Accept: application/json, text/plain, */*
+2023-06-08 20:42:11.642700 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:42:11.642701 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:42:11.642773 [info]: username=sl&password=1234
+2023-06-08 20:42:11.642709 [info]: Origin: http://172.23.1.8:5000
+2023-06-08 20:42:11.642759 [info]: oop!unknow header: Origin: http://172.23.1.8:5000
+2023-06-08 20:42:11.642763 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:42:11.642764 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:42:11.642766 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:42:11.642767 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:42:11.642769 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:42:11.642770 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:42:11.642771 [info]: 
+2023-06-08 20:42:11.642993 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:42:11.642964 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:42:11.642978 [info]: do_request - m_url: /3CGISQL.cgi
+
+2023-06-08 20:42:11.642982 [info]: do_request - p: /3CGISQL.cgi
+
+2023-06-08 20:42:11.642984 [info]: cgi: 1
+
+2023-06-08 20:42:11.642986 [info]: do_request - m_url_real: /CGISQL.cgi
+
+2023-06-08 20:42:11.642987 [info]: do_request - m_real_file: ./new_root/CGISQL.cgi
+
+2023-06-08 20:42:11.642988 [info]: do_request - 登录还是注册? m_string: username=sl&password=1234
+
+2023-06-08 20:42:11.642989 [info]: do_request - m_name: sl
+
+2023-06-08 20:42:11.643017 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2
+
+
+2023-06-08 20:42:11.643050 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2
+Connection:keep-alive
+
+
+2023-06-08 20:42:11.643053 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2
+Connection:keep-alive
+
+
+
+2023-06-08 20:42:11.643167 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:42:11.643193 [info]: adjust timer once
+2023-06-08 20:43:58.888242 [info]: m_read_idx:521
+
+2023-06-08 20:43:58.888304 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:43:58.888371 [info]: adjust timer once
+2023-06-08 20:43:58.888514 [info]: Content-Type: application/x-www-form-urlencoded
+2023-06-08 20:43:58.888529 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2023-06-08 20:43:58.888534 [info]: Origin: http://172.23.1.8:5000
+2023-06-08 20:43:58.888537 [info]: oop!unknow header: Origin: http://172.23.1.8:5000
+2023-06-08 20:43:58.888540 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:43:58.888542 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:43:58.888544 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:43:58.888454 [info]: POST /2CGISQL.cgi HTTP/1.1
+2023-06-08 20:43:58.888499 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:43:58.888505 [info]: Connection: keep-alive
+2023-06-08 20:43:58.888506 [info]: Content-Length: 25
+2023-06-08 20:43:58.888508 [info]: Accept: application/json, text/plain, */*
+2023-06-08 20:43:58.888510 [info]: oop!unknow header: Accept: application/json, text/plain, */*
+2023-06-08 20:43:58.888512 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:43:58.888513 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:43:58.888546 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:43:58.888548 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:43:58.888552 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:43:58.888553 [info]: 
+2023-06-08 20:43:58.888555 [info]: username=sl&password=1234
+2023-06-08 20:43:58.888832 [info]: do_request - filename: 
+2023-06-08 20:43:58.888842 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:43:58.888887 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:363
+Connection:keep-alive
+
+
+2023-06-08 20:43:58.888891 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:363
+Connection:keep-alive
+
+
+
+2023-06-08 20:43:58.888790 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:43:58.888806 [info]: do_request - m_url: /2CGISQL.cgi
+
+2023-06-08 20:43:58.888809 [info]: do_request - p: /2CGISQL.cgi
+
+2023-06-08 20:43:58.888811 [info]: cgi: 1
+
+2023-06-08 20:43:58.888813 [info]: do_request - m_url_real: /CGISQL.cgi
+
+2023-06-08 20:43:58.888814 [info]: do_request - m_real_file: ./new_root/CGISQL.cgi
+
+2023-06-08 20:43:58.888815 [info]: do_request - 登录还是注册? m_string: username=sl&password=1234
+
+2023-06-08 20:43:58.888816 [info]: do_request - m_name: sl
+
+2023-06-08 20:43:58.888883 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:363
+
+
+2023-06-08 20:43:58.889010 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:43:58.889076 [info]: adjust timer once
+2023-06-08 20:43:58.897053 [info]: m_read_idx:431
+
+2023-06-08 20:43:58.897104 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:43:58.897197 [info]: adjust timer once
+2023-06-08 20:43:58.897244 [info]: GET /cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-08 20:43:58.897312 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:43:58.897320 [info]: Connection: keep-alive
+2023-06-08 20:43:58.897323 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:43:58.897325 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:43:58.897410 [info]: 
+2023-06-08 20:43:58.897327 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:43:58.897387 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:43:58.897392 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:43:58.897393 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:43:58.897400 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:43:58.897407 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:43:58.897408 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:43:58.897409 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:43:58.897701 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:43:58.897626 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:43:58.897668 [info]: do_request - m_url: /cover/%E8%8A%B1%E6%B5%B7.jpg
+
+2023-06-08 20:43:58.897672 [info]: do_request - p: /%E8%8A%B1%E6%B5%B7.jpg
+
+2023-06-08 20:43:58.897674 [info]: cgi: 0
+
+2023-06-08 20:43:58.897678 [info]: UrlDecode - strTemp: �l<�`U
+2023-06-08 20:43:58.897679 [info]: p+1 != u - m_url: /cover/%E8%8A%B1%E6%B5%B7.jpg
+
+2023-06-08 20:43:58.897681 [info]: ---------------------: �l<�`U
+2023-06-08 20:43:58.897684 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/花海.jpg
+
+2023-06-08 20:43:58.897729 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:40966
+
+
+2023-06-08 20:43:58.897752 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:40966
+Connection:keep-alive
+
+
+2023-06-08 20:43:58.897757 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:40966
+Connection:keep-alive
+
+
+
+2023-06-08 20:43:58.898231 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:43:58.898319 [info]: adjust timer once
+2023-06-08 20:43:58.902965 [info]: m_read_idx:404
+
+2023-06-08 20:43:58.903013 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:43:58.903089 [info]: adjust timer once
+2023-06-08 20:43:58.903126 [info]: GET /music/%E8%8A%B1%E6%B5%B7.mp3 HTTP/1.1
+2023-06-08 20:43:58.903192 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:43:58.903208 [info]: Connection: keep-alive
+2023-06-08 20:43:58.903212 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:43:58.903254 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:43:58.903272 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:43:58.903276 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:43:58.903278 [info]: Accept: */*
+2023-06-08 20:43:58.903280 [info]: oop!unknow header: Accept: */*
+2023-06-08 20:43:58.903301 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:43:58.903315 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:43:58.903319 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:43:58.903354 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:43:58.903357 [info]: Range: bytes=0-
+2023-06-08 20:43:58.903360 [info]: oop!unknow header: Range: bytes=0-
+2023-06-08 20:43:58.903388 [info]: 
+2023-06-08 20:43:58.903592 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:43:58.903613 [info]: do_request - m_url: /music/%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 20:43:58.903617 [info]: do_request - p: /%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 20:43:58.903619 [info]: cgi: 0
+
+2023-06-08 20:43:58.903623 [info]: UrlDecode - strTemp: �6�`U
+2023-06-08 20:43:58.903636 [info]: p+1 != u - m_url: /music/%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 20:43:58.903639 [info]: ---------------------: �6�`U
+2023-06-08 20:43:58.903642 [info]: 判断完毕 ----- m_real_file: ./new_root/music/花海.mp3
+
+2023-06-08 20:43:58.903669 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:43:58.903720 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+
+
+2023-06-08 20:43:58.903724 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+Connection:keep-alive
+
+
+2023-06-08 20:43:58.903744 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+Connection:keep-alive
+
+
+
+2023-06-08 20:43:58.907467 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:43:58.907557 [info]: adjust timer once
+2023-06-08 20:46:30.185506 [info]: close fd 16
+2023-06-08 20:46:30.185633 [info]: close fd 17
+2023-06-08 20:46:30.185644 [info]: close fd 18
+2023-06-08 20:46:30.185649 [info]: m_read_idx:408
+
+2023-06-08 20:46:30.185651 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:46:30.185665 [info]: adjust timer once
+2023-06-08 20:46:30.185793 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:46:30.185797 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:46:30.185801 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:46:30.185803 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:46:30.185806 [info]: Range: bytes=32768-
+2023-06-08 20:46:30.185808 [info]: oop!unknow header: Range: bytes=32768-
+2023-06-08 20:46:30.185810 [info]: 
+2023-06-08 20:46:30.185713 [info]: GET /music/%E8%8A%B1%E6%B5%B7.mp3 HTTP/1.1
+2023-06-08 20:46:30.185777 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:46:30.185783 [info]: Connection: keep-alive
+2023-06-08 20:46:30.185785 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:46:30.185786 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:46:30.185788 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:46:30.185789 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:46:30.185790 [info]: Accept: */*
+2023-06-08 20:46:30.185791 [info]: oop!unknow header: Accept: */*
+2023-06-08 20:46:30.186126 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:46:30.186175 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+Connection:keep-alive
+
+
+2023-06-08 20:46:30.186179 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+Connection:keep-alive
+
+
+
+2023-06-08 20:46:30.186073 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:46:30.186093 [info]: do_request - m_url: /music/%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 20:46:30.186097 [info]: do_request - p: /%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 20:46:30.186098 [info]: cgi: 0
+
+2023-06-08 20:46:30.186101 [info]: UrlDecode - strTemp: @�>�`U
+2023-06-08 20:46:30.186102 [info]: p+1 != u - m_url: /music/%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 20:46:30.186104 [info]: ---------------------: @�>�`U
+2023-06-08 20:46:30.186106 [info]: 判断完毕 ----- m_real_file: ./new_root/music/花海.mp3
+
+2023-06-08 20:46:30.186171 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+
+
+2023-06-08 20:46:30.186683 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:46:30.186748 [info]: adjust timer once
+2023-06-08 20:49:37.766129 [info]: m_read_idx:458
+
+2023-06-08 20:49:37.766182 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:49:37.766264 [info]: adjust timer once
+2023-06-08 20:49:37.766309 [info]: GET /cover/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.jpg HTTP/1.1
+2023-06-08 20:49:37.766370 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:49:37.766421 [info]: Connection: keep-alive
+2023-06-08 20:49:37.766426 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:49:37.766441 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:49:37.766456 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:49:37.766460 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:49:37.766491 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:49:37.766496 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:49:37.766498 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:49:37.766500 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:49:37.766503 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:49:37.766543 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:49:37.766547 [info]: 
+2023-06-08 20:49:37.766756 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:49:37.766786 [info]: do_request - m_url: /cover/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.jpg
+
+2023-06-08 20:49:37.766790 [info]: do_request - p: /%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.jpg
+
+2023-06-08 20:49:37.766791 [info]: cgi: 0
+
+2023-06-08 20:49:37.766795 [info]: UrlDecode - strTemp: 
+2023-06-08 20:49:37.766808 [info]: p+1 != u - m_url: /cover/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.jpg
+
+2023-06-08 20:49:37.766816 [info]: ---------------------: 
+2023-06-08 20:49:37.766824 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/可惜没如果.jpg
+
+2023-06-08 20:49:37.766840 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:49:37.766888 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:173151
+
+
+2023-06-08 20:49:37.766892 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:173151
+Connection:keep-alive
+
+
+2023-06-08 20:49:37.766895 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:173151
+Connection:keep-alive
+
+
+
+2023-06-08 20:49:37.768430 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:49:37.768546 [info]: adjust timer once
+2023-06-08 20:49:37.769268 [info]: m_read_idx:431
+
+2023-06-08 20:49:37.769299 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:49:37.769380 [info]: adjust timer once
+2023-06-08 20:49:37.769572 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:49:37.769612 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:49:37.769632 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:49:37.769661 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:49:37.769697 [info]: Range: bytes=0-
+2023-06-08 20:49:37.769703 [info]: oop!unknow header: Range: bytes=0-
+2023-06-08 20:49:37.769706 [info]: 
+2023-06-08 20:49:37.769410 [info]: GET /music/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.mp3 HTTP/1.1
+2023-06-08 20:49:37.769552 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:49:37.769559 [info]: Connection: keep-alive
+2023-06-08 20:49:37.769561 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:49:37.769562 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:49:37.769564 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:49:37.769566 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:49:37.769568 [info]: Accept: */*
+2023-06-08 20:49:37.769570 [info]: oop!unknow header: Accept: */*
+2023-06-08 20:49:37.769895 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:49:37.769916 [info]: do_request - m_url: /music/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.mp3
+
+2023-06-08 20:49:37.769920 [info]: do_request - p: /%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.mp3
+
+2023-06-08 20:49:37.769922 [info]: cgi: 0
+
+2023-06-08 20:49:37.769926 [info]: UrlDecode - strTemp: 
+2023-06-08 20:49:37.769951 [info]: p+1 != u - m_url: /music/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.mp3
+
+2023-06-08 20:49:37.769954 [info]: ---------------------: 
+2023-06-08 20:49:37.769959 [info]: 判断完毕 ----- m_real_file: ./new_root/music/可惜没如果.mp3
+
+2023-06-08 20:49:37.769993 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:49:37.770031 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:12025583
+
+
+2023-06-08 20:49:37.770035 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:12025583
+Connection:keep-alive
+
+
+2023-06-08 20:49:37.770038 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:12025583
+Connection:keep-alive
+
+
+
+2023-06-08 20:49:37.771073 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:49:37.771152 [info]: adjust timer once
+2023-06-08 20:49:37.771361 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:49:37.771385 [info]: adjust timer once
+2023-06-08 20:49:37.780087 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:49:37.780226 [info]: adjust timer once
+2023-06-08 20:49:37.787712 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:49:37.787804 [info]: adjust timer once
+2023-06-08 20:49:37.796043 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:49:37.796202 [info]: adjust timer once
+2023-06-08 20:54:15.397597 [info]: close fd 16
+2023-06-08 20:54:15.399732 [info]: m_read_idx:431
+
+2023-06-08 20:54:15.399784 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:54:15.399856 [info]: adjust timer once
+2023-06-08 20:54:15.399931 [info]: GET /cover/%E6%B6%88%E6%84%81.jpg HTTP/1.1
+2023-06-08 20:54:15.399998 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:54:15.400004 [info]: Connection: keep-alive
+2023-06-08 20:54:15.400006 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:54:15.400031 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:54:15.400045 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:54:15.400049 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:54:15.400050 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:54:15.400052 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:54:15.400053 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:54:15.400056 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:54:15.400059 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:54:15.400060 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:54:15.400061 [info]: 
+2023-06-08 20:54:15.400335 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:54:15.400357 [info]: do_request - m_url: /cover/%E6%B6%88%E6%84%81.jpg
+
+2023-06-08 20:54:15.400361 [info]: do_request - p: /%E6%B6%88%E6%84%81.jpg
+
+2023-06-08 20:54:15.400363 [info]: cgi: 0
+
+2023-06-08 20:54:15.400367 [info]: UrlDecode - strTemp: P:�`U
+2023-06-08 20:54:15.400368 [info]: p+1 != u - m_url: /cover/%E6%B6%88%E6%84%81.jpg
+
+2023-06-08 20:54:15.400370 [info]: ---------------------: P:�`U
+2023-06-08 20:54:15.400372 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/消愁.jpg
+
+2023-06-08 20:54:15.400389 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:54:15.400440 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:33188
+
+
+2023-06-08 20:54:15.400444 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:33188
+Connection:keep-alive
+
+
+2023-06-08 20:54:15.400446 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:33188
+Connection:keep-alive
+
+
+
+2023-06-08 20:54:15.400934 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:54:15.401015 [info]: adjust timer once
+2023-06-08 20:54:15.402322 [info]: m_read_idx:404
+
+2023-06-08 20:54:15.402357 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:54:15.402424 [info]: adjust timer once
+2023-06-08 20:54:15.402462 [info]: GET /music/%E6%B6%88%E6%84%81.mp3 HTTP/1.1
+2023-06-08 20:54:15.402557 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:54:15.402649 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:54:15.402655 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:54:15.402660 [info]: Range: bytes=0-
+2023-06-08 20:54:15.402663 [info]: oop!unknow header: Range: bytes=0-
+2023-06-08 20:54:15.402677 [info]: 
+2023-06-08 20:54:15.402565 [info]: Connection: keep-alive
+2023-06-08 20:54:15.402626 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:54:15.402633 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:54:15.402636 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:54:15.402638 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:54:15.402640 [info]: Accept: */*
+2023-06-08 20:54:15.402643 [info]: oop!unknow header: Accept: */*
+2023-06-08 20:54:15.402645 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:54:15.402647 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:54:15.402937 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:54:15.402982 [info]: do_request - m_url: /music/%E6%B6%88%E6%84%81.mp3
+
+2023-06-08 20:54:15.402987 [info]: do_request - p: /%E6%B6%88%E6%84%81.mp3
+
+2023-06-08 20:54:15.402989 [info]: cgi: 0
+
+2023-06-08 20:54:15.402993 [info]: UrlDecode - strTemp: 0F;�`U
+2023-06-08 20:54:15.402995 [info]: p+1 != u - m_url: /music/%E6%B6%88%E6%84%81.mp3
+
+2023-06-08 20:54:15.402998 [info]: ---------------------: 0F;�`U
+2023-06-08 20:54:15.403001 [info]: 判断完毕 ----- m_real_file: ./new_root/music/消愁.mp3
+
+2023-06-08 20:54:15.403027 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:54:15.403071 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:10904450
+
+
+2023-06-08 20:54:15.403075 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:10904450
+Connection:keep-alive
+
+
+2023-06-08 20:54:15.403077 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:10904450
+Connection:keep-alive
+
+
+
+2023-06-08 20:54:15.403995 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:54:15.404063 [info]: adjust timer once
+2023-06-08 20:54:15.404315 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:54:15.404378 [info]: adjust timer once
+2023-06-08 20:54:15.421086 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:54:15.421182 [info]: adjust timer once
+2023-06-08 20:55:10.893007 [info]: close fd 16
+2023-06-08 20:55:10.896431 [info]: m_read_idx:467
+
+2023-06-08 20:55:10.896480 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:55:10.896547 [info]: adjust timer once
+2023-06-08 20:55:10.896627 [info]: GET /cover/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.jpg HTTP/1.1
+2023-06-08 20:55:10.896702 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:55:10.896708 [info]: Connection: keep-alive
+2023-06-08 20:55:10.896710 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:55:10.896711 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:55:10.896757 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:55:10.896762 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 20:55:10.896763 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:55:10.896789 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:55:10.896793 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 20:55:10.896794 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 20:55:10.896796 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:55:10.896797 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:55:10.896798 [info]: 
+2023-06-08 20:55:10.897026 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:55:10.897056 [info]: do_request - m_url: /cover/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.jpg
+
+2023-06-08 20:55:10.897061 [info]: do_request - p: /%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.jpg
+
+2023-06-08 20:55:10.897062 [info]: cgi: 0
+
+2023-06-08 20:55:10.897067 [info]: UrlDecode - strTemp: �
+2023-06-08 20:55:10.897081 [info]: p+1 != u - m_url: /cover/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.jpg
+
+2023-06-08 20:55:10.897084 [info]: ---------------------: �
+2023-06-08 20:55:10.897088 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/不能说的秘密.jpg
+
+2023-06-08 20:55:10.897118 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:55:10.897166 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5200
+
+
+2023-06-08 20:55:10.897170 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5200
+Connection:keep-alive
+
+
+2023-06-08 20:55:10.897171 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5200
+Connection:keep-alive
+
+
+
+2023-06-08 20:55:10.897685 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:55:10.897731 [info]: adjust timer once
+2023-06-08 20:55:10.899015 [info]: m_read_idx:440
+
+2023-06-08 20:55:10.899046 [info]: deal with the client(172.23.0.1)
+2023-06-08 20:55:10.899105 [info]: adjust timer once
+2023-06-08 20:55:10.899267 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 20:55:10.899292 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 20:55:10.899298 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:55:10.899306 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 20:55:10.899309 [info]: Range: bytes=0-
+2023-06-08 20:55:10.899312 [info]: oop!unknow header: Range: bytes=0-
+2023-06-08 20:55:10.899314 [info]: 
+2023-06-08 20:55:10.899187 [info]: GET /music/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.mp3 HTTP/1.1
+2023-06-08 20:55:10.899251 [info]: Host: 172.23.1.8:5000
+2023-06-08 20:55:10.899257 [info]: Connection: keep-alive
+2023-06-08 20:55:10.899259 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:55:10.899260 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 20:55:10.899262 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:55:10.899263 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 20:55:10.899264 [info]: Accept: */*
+2023-06-08 20:55:10.899265 [info]: oop!unknow header: Accept: */*
+2023-06-08 20:55:10.899521 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 20:55:10.899540 [info]: do_request - m_url: /music/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.mp3
+
+2023-06-08 20:55:10.899549 [info]: do_request - p: /%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.mp3
+
+2023-06-08 20:55:10.899551 [info]: cgi: 0
+
+2023-06-08 20:55:10.899555 [info]: UrlDecode - strTemp: �
+2023-06-08 20:55:10.899558 [info]: p+1 != u - m_url: /music/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.mp3
+
+2023-06-08 20:55:10.899561 [info]: ---------------------: �
+2023-06-08 20:55:10.899564 [info]: 判断完毕 ----- m_real_file: ./new_root/music/不能说的秘密.mp3
+
+2023-06-08 20:55:10.899589 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 20:55:10.899637 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2373465
+
+
+2023-06-08 20:55:10.899641 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2373465
+Connection:keep-alive
+
+
+2023-06-08 20:55:10.899643 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2373465
+Connection:keep-alive
+
+
+
+2023-06-08 20:55:10.900871 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:55:10.900947 [info]: adjust timer once
+2023-06-08 20:55:10.904595 [info]: send data to the client(172.23.0.1)
+2023-06-08 20:55:10.904719 [info]: adjust timer once
+2023-06-08 21:00:14.231952 [info]: close fd 23
+2023-06-08 21:00:14.232023 [info]: close fd 16
+2023-06-08 21:09:05.766158 [info]: m_read_idx:467
+
+2023-06-08 21:09:05.766204 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:09:05.766286 [info]: adjust timer once
+2023-06-08 21:09:05.766352 [info]: GET /cover/%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%BA%A6%E5%AE%9A.jpg HTTP/1.1
+2023-06-08 21:09:05.766421 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:09:05.766427 [info]: Connection: keep-alive
+2023-06-08 21:09:05.766482 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:09:05.766487 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:09:05.766488 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:09:05.766490 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:09:05.766492 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:09:05.766506 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:09:05.766521 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:09:05.766525 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:09:05.766527 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:09:05.766528 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:09:05.766529 [info]: 
+2023-06-08 21:09:05.766835 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:09:05.766877 [info]: do_request - m_url: /cover/%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%BA%A6%E5%AE%9A.jpg
+
+2023-06-08 21:09:05.766882 [info]: do_request - p: /%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%BA%A6%E5%AE%9A.jpg
+
+2023-06-08 21:09:05.766884 [info]: cgi: 0
+
+2023-06-08 21:09:05.766895 [info]: UrlDecode - strTemp: �
+2023-06-08 21:09:05.766904 [info]: p+1 != u - m_url: /cover/%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%BA%A6%E5%AE%9A.jpg
+
+2023-06-08 21:09:05.766906 [info]: ---------------------: �
+2023-06-08 21:09:05.766911 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/蒲公英的约定.jpg
+
+2023-06-08 21:09:05.766945 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:09:05.767058 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5746
+
+
+2023-06-08 21:09:05.767065 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5746
+Connection:keep-alive
+
+
+2023-06-08 21:09:05.767067 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5746
+Connection:keep-alive
+
+
+
+2023-06-08 21:09:05.767870 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:09:05.767935 [info]: adjust timer once
+2023-06-08 21:09:05.769399 [info]: m_read_idx:440
+
+2023-06-08 21:09:05.769444 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:09:05.769564 [info]: adjust timer once
+2023-06-08 21:09:05.769682 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:09:05.769697 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:09:05.769703 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:09:05.769706 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:09:05.769708 [info]: Range: bytes=0-
+2023-06-08 21:09:05.769710 [info]: oop!unknow header: Range: bytes=0-
+2023-06-08 21:09:05.769713 [info]: 
+2023-06-08 21:09:05.769601 [info]: GET /music/%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%BA%A6%E5%AE%9A.mp3 HTTP/1.1
+2023-06-08 21:09:05.769666 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:09:05.769672 [info]: Connection: keep-alive
+2023-06-08 21:09:05.769674 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:09:05.769675 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:09:05.769677 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 21:09:05.769678 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 21:09:05.769679 [info]: Accept: */*
+2023-06-08 21:09:05.769680 [info]: oop!unknow header: Accept: */*
+2023-06-08 21:09:05.770005 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:09:05.769943 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:09:05.769967 [info]: do_request - m_url: /music/%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%BA%A6%E5%AE%9A.mp3
+
+2023-06-08 21:09:05.769972 [info]: do_request - p: /%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%BA%A6%E5%AE%9A.mp3
+
+2023-06-08 21:09:05.769974 [info]: cgi: 0
+
+2023-06-08 21:09:05.769979 [info]: UrlDecode - strTemp: �
+2023-06-08 21:09:05.769982 [info]: p+1 != u - m_url: /music/%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%BA%A6%E5%AE%9A.mp3
+
+2023-06-08 21:09:05.769984 [info]: ---------------------: �
+2023-06-08 21:09:05.769987 [info]: 判断完毕 ----- m_real_file: ./new_root/music/蒲公英的约定.mp3
+
+2023-06-08 21:09:05.770038 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1978702
+
+
+2023-06-08 21:09:05.770058 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1978702
+Connection:keep-alive
+
+
+2023-06-08 21:09:05.770061 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1978702
+Connection:keep-alive
+
+
+
+2023-06-08 21:09:05.771018 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:09:05.771100 [info]: adjust timer once
+2023-06-08 21:09:05.771297 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:09:05.771371 [info]: adjust timer once
+2023-06-08 21:09:05.775812 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:09:05.775856 [info]: adjust timer once
+2023-06-08 21:10:18.451807 [info]: close fd 17
+2023-06-08 21:51:40.858908 [info]: m_read_idx:496
+
+2023-06-08 21:51:40.858982 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:40.859047 [info]: GET / HTTP/1.1
+2023-06-08 21:51:40.859210 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-08 21:51:40.859216 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-08 21:51:40.859218 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.859220 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.859222 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.859224 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.859227 [info]: 
+2023-06-08 21:51:40.859061 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:40.859007 [info]: adjust timer once
+2023-06-08 21:51:40.859184 [info]: Connection: keep-alive
+2023-06-08 21:51:40.859189 [info]: Cache-Control: max-age=0
+2023-06-08 21:51:40.859191 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-06-08 21:51:40.859192 [info]: Upgrade-Insecure-Requests: 1
+2023-06-08 21:51:40.859194 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-06-08 21:51:40.859200 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.859209 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.859749 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:40.859772 [info]: do_request - m_url: /main.html
+
+2023-06-08 21:51:40.859776 [info]: do_request - p: /main.html
+
+2023-06-08 21:51:40.859778 [info]: cgi: 0
+
+2023-06-08 21:51:40.859783 [info]: 判断完毕 ----- m_real_file: ./new_root/main.html
+
+2023-06-08 21:51:40.859807 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:40.859873 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+
+
+2023-06-08 21:51:40.859877 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+Connection:keep-alive
+
+
+2023-06-08 21:51:40.859879 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:11624
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:40.860060 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:40.860115 [info]: adjust timer once
+2023-06-08 21:51:40.924421 [info]: m_read_idx:376
+
+2023-06-08 21:51:40.924506 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:40.924622 [info]: adjust timer once
+2023-06-08 21:51:40.924657 [info]: m_read_idx:375
+
+2023-06-08 21:51:40.924676 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:40.924675 [info]: GET /main.css HTTP/1.1
+2023-06-08 21:51:40.924708 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:40.924714 [info]: adjust timer once
+2023-06-08 21:51:40.924713 [info]: Connection: keep-alive
+2023-06-08 21:51:40.924752 [info]: GET /log.css HTTP/1.1
+2023-06-08 21:51:40.924849 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:40.924801 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.924931 [info]: Connection: keep-alive
+2023-06-08 21:51:40.924948 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.924958 [info]: Accept: text/css,*/*;q=0.1
+2023-06-08 21:51:40.925016 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-08 21:51:40.925022 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.925024 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.925026 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.925045 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.925053 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.924950 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.925064 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.925072 [info]: Accept: text/css,*/*;q=0.1
+2023-06-08 21:51:40.925073 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.925142 [info]: 
+2023-06-08 21:51:40.925074 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-08 21:51:40.925272 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.925285 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.925288 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.925291 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.925294 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.925321 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.925326 [info]: 
+2023-06-08 21:51:40.925778 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:40.925832 [info]: do_request - m_url: /main.css
+
+2023-06-08 21:51:40.925839 [info]: do_request - p: /main.css
+
+2023-06-08 21:51:40.925841 [info]: cgi: 0
+
+2023-06-08 21:51:40.925853 [info]: 判断完毕 ----- m_real_file: ./new_root/main.css
+
+2023-06-08 21:51:40.925950 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:40.925973 [info]: do_request - m_url: /log.css
+
+2023-06-08 21:51:40.925977 [info]: do_request - p: /log.css
+
+2023-06-08 21:51:40.925979 [info]: cgi: 0
+
+2023-06-08 21:51:40.925984 [info]: 判断完毕 ----- m_real_file: ./new_root/log.css
+
+2023-06-08 21:51:40.925985 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:40.925991 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:40.926099 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+
+
+2023-06-08 21:51:40.926105 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+Connection:keep-alive
+
+
+2023-06-08 21:51:40.926120 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+
+
+2023-06-08 21:51:40.926206 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:14583
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:40.926209 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+Connection:keep-alive
+
+
+2023-06-08 21:51:40.926292 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:1443
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:40.926455 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:40.926534 [info]: adjust timer once
+2023-06-08 21:51:40.926603 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:40.926671 [info]: adjust timer once
+2023-06-08 21:51:40.927929 [info]: m_read_idx:359
+
+2023-06-08 21:51:40.928123 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:40.928367 [info]: adjust timer once
+2023-06-08 21:51:40.928405 [info]: GET /vue.js HTTP/1.1
+2023-06-08 21:51:40.928446 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:40.928495 [info]: Connection: keep-alive
+2023-06-08 21:51:40.928500 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.928503 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.928505 [info]: Accept: */*
+2023-06-08 21:51:40.928507 [info]: oop!unknow header: Accept: */*
+2023-06-08 21:51:40.928511 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.928513 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.928515 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.928562 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.928579 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.928582 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.928584 [info]: 
+2023-06-08 21:51:40.928816 [info]: m_read_idx:365
+
+2023-06-08 21:51:40.928860 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:40.929044 [info]: oop!unknow header: Accept: */*
+2023-06-08 21:51:40.929095 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.929126 [info]: GET /main.js HTTP/1.1
+2023-06-08 21:51:40.929176 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:40.929130 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.929198 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.929057 [info]: adjust timer once
+2023-06-08 21:51:40.929201 [info]: Connection: keep-alive
+2023-06-08 21:51:40.929315 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.929326 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.929330 [info]: Accept: */*
+2023-06-08 21:51:40.929333 [info]: oop!unknow header: Accept: */*
+2023-06-08 21:51:40.929337 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.929340 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:40.929344 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.929347 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.929350 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.929354 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.929357 [info]: 
+2023-06-08 21:51:40.928981 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:40.929384 [info]: do_request - m_url: /vue.js
+
+2023-06-08 21:51:40.929207 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:40.928959 [info]: adjust timer once
+2023-06-08 21:51:40.929013 [info]: GET /axios.min.js HTTP/1.1
+2023-06-08 21:51:40.929023 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:40.929026 [info]: Connection: keep-alive
+2023-06-08 21:51:40.929027 [info]: m_read_idx:360
+
+2023-06-08 21:51:40.929035 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:40.929028 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.929040 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:40.929042 [info]: Accept: */*
+2023-06-08 21:51:40.929392 [info]: do_request - p: /vue.js
+
+2023-06-08 21:51:40.929433 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.929443 [info]: cgi: 0
+
+2023-06-08 21:51:40.929518 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:40.929525 [info]: 
+2023-06-08 21:51:40.929492 [info]: 判断完毕 ----- m_real_file: ./new_root/vue.js
+
+2023-06-08 21:51:40.929781 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:40.929811 [info]: do_request - m_url: /main.js
+
+2023-06-08 21:51:40.929816 [info]: do_request - p: /main.js
+
+2023-06-08 21:51:40.929818 [info]: cgi: 0
+
+2023-06-08 21:51:40.929822 [info]: 判断完毕 ----- m_real_file: ./new_root/main.js
+
+2023-06-08 21:51:40.929966 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:40.929985 [info]: do_request - m_url: /axios.min.js
+
+2023-06-08 21:51:40.929989 [info]: do_request - p: /axios.min.js
+
+2023-06-08 21:51:40.929990 [info]: cgi: 0
+
+2023-06-08 21:51:40.929993 [info]: 判断完毕 ----- m_real_file: ./new_root/axios.min.js
+
+2023-06-08 21:51:40.930001 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:40.930017 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:40.930003 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:40.930102 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+
+
+2023-06-08 21:51:40.930109 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+Connection:keep-alive
+
+
+2023-06-08 21:51:40.930111 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:380041
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:40.930105 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+
+
+2023-06-08 21:51:40.930119 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+Connection:keep-alive
+
+
+2023-06-08 21:51:40.930122 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:13532
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:40.930211 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+
+
+2023-06-08 21:51:40.930237 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+Connection:keep-alive
+
+
+2023-06-08 21:51:40.930181 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:40.930241 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:20729
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:40.930298 [info]: adjust timer once
+2023-06-08 21:51:40.930353 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:40.930406 [info]: adjust timer once
+2023-06-08 21:51:40.930473 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:40.930538 [info]: adjust timer once
+2023-06-08 21:51:40.930696 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:40.930747 [info]: adjust timer once
+2023-06-08 21:51:41.082346 [info]: m_read_idx:414
+
+2023-06-08 21:51:41.082391 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:41.082465 [info]: adjust timer once
+2023-06-08 21:51:41.082502 [info]: GET /default.png HTTP/1.1
+2023-06-08 21:51:41.082569 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:41.082575 [info]: Connection: keep-alive
+2023-06-08 21:51:41.082576 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:41.082605 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:41.082609 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:51:41.082611 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:51:41.082612 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:41.082613 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:41.082614 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:41.082616 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:41.082671 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:41.082676 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:41.082677 [info]: 
+2023-06-08 21:51:41.083195 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:41.083255 [info]: do_request - m_url: /default.png
+
+2023-06-08 21:51:41.083260 [info]: do_request - p: /default.png
+
+2023-06-08 21:51:41.083262 [info]: cgi: 0
+
+2023-06-08 21:51:41.083267 [info]: 判断完毕 ----- m_real_file: ./new_root/default.png
+
+2023-06-08 21:51:41.083295 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:41.083378 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+
+
+2023-06-08 21:51:41.083382 [info]: m_read_idx:418
+
+2023-06-08 21:51:41.083384 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+Connection:keep-alive
+
+
+2023-06-08 21:51:41.083398 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:130099
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:41.083393 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:41.083408 [info]: GET /cover/cover.png HTTP/1.1
+2023-06-08 21:51:41.083412 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:41.083414 [info]: Connection: keep-alive
+2023-06-08 21:51:41.083417 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:41.083428 [info]: adjust timer once
+2023-06-08 21:51:41.083444 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:41.083470 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:51:41.083492 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:51:41.083496 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:41.083498 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:41.083559 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:41.083568 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:41.083631 [info]: adjust timer once
+2023-06-08 21:51:41.083633 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:41.083685 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:41.083690 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:41.083735 [info]: 
+2023-06-08 21:51:41.083745 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:41.083761 [info]: do_request - m_url: /cover/cover.png
+
+2023-06-08 21:51:41.083764 [info]: do_request - p: /cover.png
+
+2023-06-08 21:51:41.083766 [info]: cgi: 0
+
+2023-06-08 21:51:41.083770 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/cover.png
+
+2023-06-08 21:51:41.083778 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:41.083818 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+
+
+2023-06-08 21:51:41.083822 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+Connection:keep-alive
+
+
+2023-06-08 21:51:41.083824 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:5301
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:41.083970 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:41.083998 [info]: adjust timer once
+2023-06-08 21:51:41.179228 [info]: m_read_idx:414
+
+2023-06-08 21:51:41.179273 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:41.179344 [info]: adjust timer once
+2023-06-08 21:51:41.179422 [info]: GET /favicon.ico HTTP/1.1
+2023-06-08 21:51:41.179499 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:41.179506 [info]: Connection: keep-alive
+2023-06-08 21:51:41.179527 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:41.179566 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:41.179570 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:51:41.179571 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:51:41.179597 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:41.179601 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:41.179603 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:41.179644 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:41.179648 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:41.179650 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:41.179674 [info]: 
+2023-06-08 21:51:41.179966 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:41.179988 [info]: do_request - m_url: /favicon.ico
+
+2023-06-08 21:51:41.179992 [info]: do_request - p: /favicon.ico
+
+2023-06-08 21:51:41.179994 [info]: cgi: 0
+
+2023-06-08 21:51:41.179997 [info]: 判断完毕 ----- m_real_file: ./new_root/favicon.ico
+
+2023-06-08 21:51:41.180006 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:41.180050 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+
+
+2023-06-08 21:51:41.180053 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2023-06-08 21:51:41.180069 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:41.180179 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:41.180239 [info]: adjust timer once
+2023-06-08 21:51:59.678112 [info]: m_read_idx:521
+
+2023-06-08 21:51:59.678165 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:59.678235 [info]: adjust timer once
+2023-06-08 21:51:59.678398 [info]: Content-Type: application/x-www-form-urlencoded
+2023-06-08 21:51:59.678447 [info]: Origin: http://172.23.1.8:5000
+2023-06-08 21:51:59.678451 [info]: oop!unknow header: Origin: http://172.23.1.8:5000
+2023-06-08 21:51:59.678454 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:59.678458 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:59.678330 [info]: POST /2CGISQL.cgi HTTP/1.1
+2023-06-08 21:51:59.678372 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:59.678388 [info]: Connection: keep-alive
+2023-06-08 21:51:59.678390 [info]: Content-Length: 25
+2023-06-08 21:51:59.678392 [info]: Accept: application/json, text/plain, */*
+2023-06-08 21:51:59.678393 [info]: oop!unknow header: Accept: application/json, text/plain, */*
+2023-06-08 21:51:59.678395 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:59.678396 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:59.678443 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2023-06-08 21:51:59.678460 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:59.678491 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:59.678508 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:59.678512 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:59.678526 [info]: 
+2023-06-08 21:51:59.678529 [info]: username=sl&password=1234
+2023-06-08 21:51:59.678858 [info]: do_request - filename: 
+2023-06-08 21:51:59.678863 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:59.678900 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:363
+Connection:keep-alive
+
+
+2023-06-08 21:51:59.678910 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:363
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:59.678825 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:59.678842 [info]: do_request - m_url: /2CGISQL.cgi
+
+2023-06-08 21:51:59.678846 [info]: do_request - p: /2CGISQL.cgi
+
+2023-06-08 21:51:59.678847 [info]: cgi: 1
+
+2023-06-08 21:51:59.678849 [info]: do_request - m_url_real: /CGISQL.cgi
+
+2023-06-08 21:51:59.678850 [info]: do_request - m_real_file: ./new_root/CGISQL.cgi
+
+2023-06-08 21:51:59.678851 [info]: do_request - 登录还是注册? m_string: username=sl&password=1234
+
+2023-06-08 21:51:59.678852 [info]: do_request - m_name: sl
+
+2023-06-08 21:51:59.678897 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:363
+
+
+2023-06-08 21:51:59.679027 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:59.679090 [info]: adjust timer once
+2023-06-08 21:51:59.686804 [info]: m_read_idx:431
+
+2023-06-08 21:51:59.686865 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:59.686930 [info]: adjust timer once
+2023-06-08 21:51:59.687011 [info]: GET /cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-08 21:51:59.687086 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:59.687092 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 21:51:59.687094 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:59.687097 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:59.687099 [info]: 
+2023-06-08 21:51:59.687021 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:59.687073 [info]: Connection: keep-alive
+2023-06-08 21:51:59.687077 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:59.687079 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:59.687081 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:51:59.687082 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 21:51:59.687083 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:59.687085 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:59.687463 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:59.687508 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:40966
+Connection:keep-alive
+
+
+2023-06-08 21:51:59.687513 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:40966
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:59.687413 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:59.687434 [info]: do_request - m_url: /cover/%E8%8A%B1%E6%B5%B7.jpg
+
+2023-06-08 21:51:59.687439 [info]: do_request - p: /%E8%8A%B1%E6%B5%B7.jpg
+
+2023-06-08 21:51:59.687440 [info]: cgi: 0
+
+2023-06-08 21:51:59.687444 [info]: UrlDecode - strTemp: �5U�[U
+2023-06-08 21:51:59.687446 [info]: p+1 != u - m_url: /cover/%E8%8A%B1%E6%B5%B7.jpg
+
+2023-06-08 21:51:59.687447 [info]: ---------------------: /cover/花海.jpg
+2023-06-08 21:51:59.687450 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/花海.jpg
+
+2023-06-08 21:51:59.687504 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:40966
+
+
+2023-06-08 21:51:59.687628 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:59.687696 [info]: adjust timer once
+2023-06-08 21:51:59.695548 [info]: m_read_idx:404
+
+2023-06-08 21:51:59.695600 [info]: deal with the client(172.23.0.1)
+2023-06-08 21:51:59.695750 [info]: Accept: */*
+2023-06-08 21:51:59.695813 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:59.695841 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 21:51:59.695679 [info]: adjust timer once
+2023-06-08 21:51:59.695865 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:59.695892 [info]: Range: bytes=0-
+2023-06-08 21:51:59.695918 [info]: oop!unknow header: Range: bytes=0-
+2023-06-08 21:51:59.695956 [info]: 
+2023-06-08 21:51:59.695729 [info]: GET /music/%E8%8A%B1%E6%B5%B7.mp3 HTTP/1.1
+2023-06-08 21:51:59.695740 [info]: Host: 172.23.1.8:5000
+2023-06-08 21:51:59.695742 [info]: Connection: keep-alive
+2023-06-08 21:51:59.695744 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:59.695745 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 21:51:59.695747 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 21:51:59.695748 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 21:51:59.695808 [info]: oop!unknow header: Accept: */*
+2023-06-08 21:51:59.695847 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 21:51:59.696418 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 21:51:59.696492 [info]: do_request - m_url: /music/%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 21:51:59.696496 [info]: do_request - p: /%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 21:51:59.696497 [info]: cgi: 0
+
+2023-06-08 21:51:59.696503 [info]: UrlDecode - strTemp: 0�W�[U
+2023-06-08 21:51:59.696504 [info]: p+1 != u - m_url: /music/%E8%8A%B1%E6%B5%B7.mp3
+
+2023-06-08 21:51:59.696506 [info]: ---------------------: /music/花海.mp3
+2023-06-08 21:51:59.696510 [info]: 判断完毕 ----- m_real_file: ./new_root/music/花海.mp3
+
+2023-06-08 21:51:59.696533 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 21:51:59.696598 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+
+
+2023-06-08 21:51:59.696602 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+Connection:keep-alive
+
+
+2023-06-08 21:51:59.696604 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:2117883
+Connection:keep-alive
+
+
+
+2023-06-08 21:51:59.697100 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:59.697156 [info]: adjust timer once
+2023-06-08 21:51:59.697743 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:59.697817 [info]: adjust timer once
+2023-06-08 21:51:59.698104 [info]: send data to the client(172.23.0.1)
+2023-06-08 21:51:59.698164 [info]: adjust timer once
+2023-06-08 21:56:49.823580 [info]: close fd 16
+2023-06-08 21:56:49.823707 [info]: close fd 24
+2023-06-08 21:56:49.823716 [info]: close fd 17
+2023-06-08 21:56:49.823719 [info]: close fd 23
+2023-06-08 22:23:05.805864 [info]: m_read_idx:431
+
+2023-06-08 22:23:05.806027 [info]: deal with the client(172.23.0.1)
+2023-06-08 22:23:05.806072 [info]: adjust timer once
+2023-06-08 22:23:05.806319 [info]: GET /cover/%E6%B6%88%E6%84%81.jpg HTTP/1.1
+2023-06-08 22:23:05.806393 [info]: Host: 172.23.1.8:5000
+2023-06-08 22:23:05.806413 [info]: Connection: keep-alive
+2023-06-08 22:23:05.806427 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 22:23:05.806431 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 22:23:05.806468 [info]: 
+2023-06-08 22:23:05.806444 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 22:23:05.806457 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-08 22:23:05.806460 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 22:23:05.806462 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 22:23:05.806464 [info]: Accept-Encoding: gzip, deflate
+2023-06-08 22:23:05.806465 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-08 22:23:05.806466 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 22:23:05.806467 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 22:23:05.806710 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 22:23:05.806743 [info]: do_request - m_url: /cover/%E6%B6%88%E6%84%81.jpg
+
+2023-06-08 22:23:05.806747 [info]: do_request - p: /%E6%B6%88%E6%84%81.jpg
+
+2023-06-08 22:23:05.806749 [info]: cgi: 0
+
+2023-06-08 22:23:05.806775 [info]: UrlDecode - strTemp: �u))ZU
+2023-06-08 22:23:05.806779 [info]: p+1 != u - m_url: /cover/%E6%B6%88%E6%84%81.jpg
+
+2023-06-08 22:23:05.806781 [info]: ---------------------: /cover/消愁.jpg
+2023-06-08 22:23:05.806784 [info]: 判断完毕 ----- m_real_file: ./new_root/cover/消愁.jpg
+
+2023-06-08 22:23:05.806793 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 22:23:05.806835 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:33188
+
+
+2023-06-08 22:23:05.806839 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:33188
+Connection:keep-alive
+
+
+2023-06-08 22:23:05.806841 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:33188
+Connection:keep-alive
+
+
+
+2023-06-08 22:23:05.806950 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.807022 [info]: adjust timer once
+2023-06-08 22:23:05.808367 [info]: m_read_idx:404
+
+2023-06-08 22:23:05.808392 [info]: deal with the client(172.23.0.1)
+2023-06-08 22:23:05.808449 [info]: adjust timer once
+2023-06-08 22:23:05.808479 [info]: GET /music/%E6%B6%88%E6%84%81.mp3 HTTP/1.1
+2023-06-08 22:23:05.808541 [info]: Host: 172.23.1.8:5000
+2023-06-08 22:23:05.808566 [info]: Connection: keep-alive
+2023-06-08 22:23:05.808589 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 22:23:05.808594 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41
+2023-06-08 22:23:05.808596 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 22:23:05.808598 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2023-06-08 22:23:05.808601 [info]: Accept: */*
+2023-06-08 22:23:05.808623 [info]: oop!unknow header: Accept: */*
+2023-06-08 22:23:05.808647 [info]: Referer: http://172.23.1.8:5000/
+2023-06-08 22:23:05.808651 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-08 22:23:05.808669 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 22:23:05.808673 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-08 22:23:05.808676 [info]: Range: bytes=0-
+2023-06-08 22:23:05.808678 [info]: oop!unknow header: Range: bytes=0-
+2023-06-08 22:23:05.808680 [info]: 
+2023-06-08 22:23:05.808942 [info]: do_request - m_real_file: ./new_root
+
+2023-06-08 22:23:05.808969 [info]: do_request - m_url: /music/%E6%B6%88%E6%84%81.mp3
+
+2023-06-08 22:23:05.808975 [info]: do_request - p: /%E6%B6%88%E6%84%81.mp3
+
+2023-06-08 22:23:05.808977 [info]: cgi: 0
+
+2023-06-08 22:23:05.809008 [info]: UrlDecode - strTemp: ��*)ZU
+2023-06-08 22:23:05.809025 [info]: p+1 != u - m_url: /music/%E6%B6%88%E6%84%81.mp3
+
+2023-06-08 22:23:05.809029 [info]: ---------------------: /music/消愁.mp3
+2023-06-08 22:23:05.809033 [info]: 判断完毕 ----- m_real_file: ./new_root/music/消愁.mp3
+
+2023-06-08 22:23:05.809043 [info]: function: add_response - request:HTTP/1.1 200 OK
+
+
+2023-06-08 22:23:05.809076 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:10904450
+
+
+2023-06-08 22:23:05.809081 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:10904450
+Connection:keep-alive
+
+
+2023-06-08 22:23:05.809083 [info]: function: add_response - request:HTTP/1.1 200 OK
+Content-Length:10904450
+Connection:keep-alive
+
+
+
+2023-06-08 22:23:05.809151 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.809201 [info]: adjust timer once
+2023-06-08 22:23:05.809449 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.809566 [info]: adjust timer once
+2023-06-08 22:23:05.809656 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.809714 [info]: adjust timer once
+2023-06-08 22:23:05.809927 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.810007 [info]: adjust timer once
+2023-06-08 22:23:05.811879 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.812013 [info]: adjust timer once
+2023-06-08 22:23:05.813185 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.813288 [info]: adjust timer once
+2023-06-08 22:23:05.815839 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.815943 [info]: adjust timer once
+2023-06-08 22:23:05.817570 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.817665 [info]: adjust timer once
+2023-06-08 22:23:05.819406 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.819542 [info]: adjust timer once
+2023-06-08 22:23:05.821362 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.821739 [info]: adjust timer once
+2023-06-08 22:23:05.826376 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.826502 [info]: adjust timer once
+2023-06-08 22:23:05.836212 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.836340 [info]: adjust timer once
+2023-06-08 22:23:05.837465 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.837587 [info]: adjust timer once
+2023-06-08 22:23:05.841193 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.841501 [info]: adjust timer once
+2023-06-08 22:23:05.842552 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.842660 [info]: adjust timer once
+2023-06-08 22:23:05.844772 [info]: send data to the client(172.23.0.1)
+2023-06-08 22:23:05.844891 [info]: adjust timer once
+2023-06-08 22:28:29.155779 [info]: close fd 16

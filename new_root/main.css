@@ -1,0 +1,646 @@
+
+body {
+    min-width: 320px;
+    font-family: Arial;
+    color: hsla(0,0%,100%,.6);
+    background-color: rgb(67 54 54);
+}
+#music, #app, body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#music, #app, #app .router-view {
+    width: 100%;
+    height: 100%;
+    /* padding: 0px 100px 0px 0px; */
+}
+
+#app {
+    position: relative;
+}
+.mm-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: block;
+}
+
+.mm-header .header {
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mm-header .user {
+    position: absolute;
+    top: 55%;
+    right: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: right;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.mm-header .user .user-avatar{
+    width: 40px;
+    height: 40px;
+    margin: 0% 0%;
+}
+.mm-header .user .user-avatar .avatarcanvas{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-repeat:no-repeat; 
+    font-size: 10px;
+}
+.mm-header .user .user-avatar .nav-link-user-img{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-repeat:no-repeat; 
+    font-size: 10px;
+}
+
+.mm-header .user .user-avatar .modify-avatar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+}
+
+.user-avatar .modify-avatar .file{
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+
+ .dialog{
+    background-color: rgba(255,255, 255, 1);
+    width: 20%;
+    height: 100px;
+    border-radius: 5px;
+    z-index: 1;/*优先*/
+    text-align: center;
+    /* 实现对浏览器窗口的垂直居中 */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 弹出框的提示文字部分 */
+.dialog .header{
+    height: 60%;
+    line-height: 60px;
+    margin: 0 auto;
+    color: black;
+}
+/* 弹出框的两个按钮部分 */
+.dialog .footer{
+    height: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* 取消和确认按钮的设置 */
+.dialog .confirm,.cancel{
+    outline: none;
+    /* background-color: white; */
+    width: 50%;
+}
+
+.music {
+    padding: 75px 50px 25px 100px;
+    width: 100%;
+    max-width: 1750px;
+    margin: 0 auto;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.music .music-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+.music .music-content .music-left {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+.music .music-content .music-right {
+    position: relative;
+    width: 310px;
+    margin-left: 10px;
+}
+
+.music-btn[data-v-a4e61d46] {
+    width: 100%;
+    height: 60px;
+    font-size: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.music-btn span.active[data-v-a4e61d46], .music-btn span[data-v-a4e61d46]:hover {
+    border-color: #fff;
+    color: #fff;
+}
+.music-btn span[data-v-a4e61d46] {
+    display: inline-block;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 8px;
+    padding: 0 23px;
+    border: 1px solid hsla(0,0%,100%,.6);
+    color: hsla(0,0%,100%,.6);
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.music .music-content .music-left .music-list {
+    height: calc(100% - 60px);
+}
+
+
+.playList, .playList .musicList {
+    width: 100%;
+    height: 100%;
+}
+.playList {
+    position: relative;
+}
+
+.playList, .playList .musicList {
+    width: 100%;
+    height: 100%;
+}
+
+.list-item[data-v-d5324632] {
+    height: 50px;
+    border-bottom: 1px solid hsla(0,0%,100%,.1);
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.list-item[data-v-d5324632], .list-no[data-v-d5324632] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.list-header[data-v-d5324632] {
+    border-bottom: 1px solid hsla(0,0%,100%,.8);
+    color: #fff;
+}
+
+.list-content[data-v-d5324632] {
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.list-item .list-num[data-v-d5324632] {
+    display: block;
+    width: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.list-item .list-name[data-v-d5324632] {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.list-header .list-name[data-v-d5324632] {
+    padding-left: 40px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.list-item .list-artist[data-v-d5324632] {
+    display: block;
+    width: 20%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.list-item .list-name .list-menu[data-v-d5324632] {
+    /* display: true; */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    height: 40px;
+    font-size: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.list-item .list-time[data-v-d5324632] {
+    /* display: block; */
+    width: 60px;
+    position: relative;
+}
+.playList .musicList .list-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+}
+.playList .musicList .list-btn span {
+    padding: 5px 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i {
+    font-style: italic;
+}
+.icon-play-mini:before {
+    content: "\e95d";
+}
+/* 自己添加的爱心符号 */
+i {
+    font-style: italic;
+}
+.icon-heart-mini:before {
+    content: "\2665";
+}
+
+i {
+    font-style: italic;
+}
+.icon-redheart-mini:before {
+    content: "\2764";
+    color: red;
+}
+/* end */
+
+.hover {
+    color: hsla(0,0%,100%,.6);
+}
+
+.hover, .pointer {
+    cursor: pointer;
+}
+.iconfont {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    vertical-align: baseline;
+    text-transform: none;
+    /* speak: none; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.list-item .icon-del {
+    /* display: block; */
+    width: 60px;
+    position: relative;
+}
+
+.list-item .list-menu-icon-del[data-v-d5324632] {
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.music .music-bar {
+    width: 70%;
+    height: 80px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.music .music-bar .music-bar-btns, .music .music-bar .music-bar-btns .control-play {
+    /* display: -webkit-box;
+    display: -ms-fit-box;
+    display: -ms-flexbox; */
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.music .music-bar .music-bar-btns {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.music .music-bar .music-music {
+    position: relative;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 50px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.music .music-bar .music-bar-btns .control-play {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: hsla(0,0%,100%,.3);
+}
+.music .music-bar .music-bar-btns, .music .music-bar .music-bar-btns .control-play {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.music-info dd[data-v-4f8466fe] {
+    height: 30px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.music .music-bar .comment, .music .music-bar .mode, .music .music-bar .music-bar-volume {
+    margin-left: 20px;
+}
+.music .music-bar .icon-color {
+    color: #fff;
+}
+.music .music-bar .music-music .music-bar-time {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding-right: 50px;
+}
+
+.volume[data-v-256fedce] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 150px;
+}
+
+.volume-icon[data-v-256fedce] {
+    margin-right: 5px;
+    color: #fff;
+}
+
+.volume-progress-wrapper[data-v-256fedce] {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.mmProgress {
+    position: relative;
+    padding: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.mmProgress .mmProgress-bar {
+    height: 2px;
+    width: 100%;
+    background: hsla(0,0%,100%,.15);
+}
+
+.mmProgress .mmProgress-inner, .mmProgress .mmProgress-outer {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    margin-top: -1px;
+}
+.mmProgress .mmProgress-outer {
+    background: hsla(0,0%,100%,.2);
+}
+
+.mmProgress .mmProgress-inner {
+    background: #fff;
+}
+.mmProgress .mmProgress-inner, .mmProgress .mmProgress-outer {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    margin-top: -1px;
+}
+
+.mmProgress .mmProgress-inner .mmProgress-dot {
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.music-info[data-v-4f8466fe] {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: transparent;
+}
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.music-info dt[data-v-4f8466fe] {
+    position: relative;
+    width: 186px;
+    height: 186px;
+    margin: 0 auto 15px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: transparent;
+}
+
+dt {
+    display: block;
+}
+
+.music-lyric[data-v-4f8466fe] {
+    position: absolute;
+    top: 315px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+    -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,hsla(0,0%,100%,0)),color-stop(15%,hsla(0,0%,100%,.6)),color-stop(25%,#fff),color-stop(75%,#fff),color-stop(85%,hsla(0,0%,100%,.6)),to(hsla(0,0%,100%,0)));
+    -webkit-mask-image: linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.6) 15%,#fff 25%,#fff 75%,hsla(0,0%,100%,.6) 85%,hsla(0,0%,100%,0));
+    mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,hsla(0,0%,100%,0)),color-stop(15%,hsla(0,0%,100%,.6)),color-stop(25%,#fff),color-stop(75%,#fff),color-stop(85%,hsla(0,0%,100%,.6)),to(hsla(0,0%,100%,0)));
+    mask-image: linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.6) 15%,#fff 25%,#fff 75%,hsla(0,0%,100%,.6) 85%,hsla(0,0%,100%,0));
+}
+
+.music-info dt img[data-v-4f8466fe] {
+    vertical-align: middle;
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+
+    /* 添加以下代码以启用动画效果 */
+    /* animation-name: spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    transform: rotate(0deg);
+}
+
+/* @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+::-webkit-resizer, ::-webkit-scrollbar-corner {
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    background-color: rgba(0,0,0,.3);
+    width: 5px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-button {
+    display: none;
+}
+::-webkit-resizer, ::-webkit-scrollbar-corner {
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: hsla(0,0%,100%,.5);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    display: none;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track-piece {
+    border-radius: 10px;
+}
+

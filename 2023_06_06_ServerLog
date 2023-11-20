@@ -1,0 +1,778 @@
+2023-06-06 09:51:28.118306 [info]: m_read_idx:470
+2023-06-06 09:51:28.118369 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:28.118421 [info]: GET / HTTP/1.1
+2023-06-06 09:51:28.118393 [info]: adjust timer once
+2023-06-06 09:51:28.118518 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:28.118524 [info]: Connection: keep-alive
+2023-06-06 09:51:28.118526 [info]: Upgrade-Insecure-Requests: 1
+2023-06-06 09:51:28.118528 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:28.118530 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-06 09:51:28.118531 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:28.118533 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:28.118535 [info]: 
+2023-06-06 09:51:28.119225 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.119255 [info]: adjust timer once
+2023-06-06 09:51:28.172999 [info]: m_read_idx:376
+2023-06-06 09:51:28.173066 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:28.173145 [info]: adjust timer once
+2023-06-06 09:51:28.173199 [info]: GET /main.css HTTP/1.1
+2023-06-06 09:51:28.173245 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:28.173271 [info]: Connection: keep-alive
+2023-06-06 09:51:28.173277 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:28.173281 [info]: Accept: text/css,*/*;q=0.1
+2023-06-06 09:51:28.173284 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:51:28.173287 [info]: m_read_idx:375
+2023-06-06 09:51:28.173297 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:28.173308 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:28.173312 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:28.173315 [info]: 
+2023-06-06 09:51:28.173323 [info]: adjust timer once
+2023-06-06 09:51:28.173444 [info]: GET /log.css HTTP/1.1
+2023-06-06 09:51:28.173511 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:28.173517 [info]: Connection: keep-alive
+2023-06-06 09:51:28.173519 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:28.173521 [info]: Accept: text/css,*/*;q=0.1
+2023-06-06 09:51:28.173536 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:51:28.173552 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:28.173556 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:28.173559 [info]: 
+2023-06-06 09:51:28.175093 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.175168 [info]: adjust timer once
+2023-06-06 09:51:28.175268 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.175362 [info]: adjust timer once
+2023-06-06 09:51:28.176504 [info]: m_read_idx:359
+2023-06-06 09:51:28.176548 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:28.176566 [info]: adjust timer once
+2023-06-06 09:51:28.176608 [info]: GET /vue.js HTTP/1.1
+2023-06-06 09:51:28.176724 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:28.176620 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:28.176686 [info]: Connection: keep-alive
+2023-06-06 09:51:28.176691 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:28.176707 [info]: Accept: */*
+2023-06-06 09:51:28.176711 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:51:28.176714 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:28.176717 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:28.176719 [info]: 
+2023-06-06 09:51:28.176621 [info]: m_read_idx:365
+2023-06-06 09:51:28.176780 [info]: adjust timer once
+2023-06-06 09:51:28.176820 [info]: m_read_idx:360
+2023-06-06 09:51:28.176824 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:28.176900 [info]: GET /axios.min.js HTTP/1.1
+2023-06-06 09:51:28.176918 [info]: adjust timer once
+2023-06-06 09:51:28.176990 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:28.176997 [info]: Connection: keep-alive
+2023-06-06 09:51:28.177000 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:28.177002 [info]: Accept: */*
+2023-06-06 09:51:28.177005 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:51:28.177007 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:28.177009 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:28.177048 [info]: 
+2023-06-06 09:51:28.177348 [info]: GET /main.js HTTP/1.1
+2023-06-06 09:51:28.177367 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:28.177371 [info]: Connection: keep-alive
+2023-06-06 09:51:28.177373 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:28.177375 [info]: Accept: */*
+2023-06-06 09:51:28.177376 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:51:28.177378 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:28.177379 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:28.177380 [info]: 
+2023-06-06 09:51:28.178500 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.178538 [info]: adjust timer once
+2023-06-06 09:51:28.178610 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.178714 [info]: adjust timer once
+2023-06-06 09:51:28.178807 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.178889 [info]: adjust timer once
+2023-06-06 09:51:28.179013 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.179101 [info]: adjust timer once
+2023-06-06 09:51:28.971052 [info]: m_read_idx:414
+2023-06-06 09:51:28.971101 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:28.971175 [info]: adjust timer once
+2023-06-06 09:51:28.971197 [info]: m_read_idx:418
+2023-06-06 09:51:28.971201 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:28.971274 [info]: 
+2023-06-06 09:51:28.971231 [info]: GET /default.png HTTP/1.1
+2023-06-06 09:51:28.971260 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:28.971265 [info]: Connection: keep-alive
+2023-06-06 09:51:28.971267 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:28.971268 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:51:28.971270 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:51:28.971271 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:28.971272 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:28.971316 [info]: adjust timer once
+2023-06-06 09:51:28.971815 [info]: 
+2023-06-06 09:51:28.971732 [info]: GET /cover/cover.png HTTP/1.1
+2023-06-06 09:51:28.971799 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:28.971805 [info]: Connection: keep-alive
+2023-06-06 09:51:28.971807 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:28.971809 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:51:28.971811 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:51:28.971812 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:28.971814 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:28.971918 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.971981 [info]: adjust timer once
+2023-06-06 09:51:28.972799 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:28.972836 [info]: adjust timer once
+2023-06-06 09:51:29.006397 [info]: m_read_idx:414
+2023-06-06 09:51:29.006479 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:51:29.006585 [info]: adjust timer once
+2023-06-06 09:51:29.006644 [info]: GET /favicon.ico HTTP/1.1
+2023-06-06 09:51:29.006722 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:51:29.006728 [info]: Connection: keep-alive
+2023-06-06 09:51:29.006730 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:51:29.006735 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:51:29.006737 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:51:29.006794 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:51:29.006800 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:51:29.006824 [info]: 
+2023-06-06 09:51:29.007516 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:51:29.007546 [info]: adjust timer once
+2023-06-06 09:52:17.127200 [info]: m_read_idx:521
+2023-06-06 09:52:17.127255 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:17.127347 [info]: adjust timer once
+2023-06-06 09:52:17.127378 [info]: POST /2CGISQL.cgi HTTP/1.1
+2023-06-06 09:52:17.127423 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:17.127439 [info]: Connection: keep-alive
+2023-06-06 09:52:17.127442 [info]: Content-Length: 25
+2023-06-06 09:52:17.127477 [info]: Accept: application/json, text/plain, */*
+2023-06-06 09:52:17.127481 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:17.127487 [info]: Content-Type: application/x-www-form-urlencoded
+2023-06-06 09:52:17.127489 [info]: Origin: http://172.23.1.8:5000
+2023-06-06 09:52:17.127490 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:17.127492 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:52:17.127498 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:17.127503 [info]: 
+2023-06-06 09:52:17.127504 [info]: username=sl&password=1234
+2023-06-06 09:52:17.128008 [info]: name: sl
+2023-06-06 09:52:17.128035 [info]: name: �
+2023-06-06 09:52:17.128186 [info]: send data to the client(172.23.0.1)
+2023-06-06 09:52:17.128252 [info]: adjust timer once
+2023-06-06 09:52:17.137511 [info]: m_read_idx:462
+2023-06-06 09:52:17.137555 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:17.137627 [info]: adjust timer once
+2023-06-06 09:52:17.137673 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 09:52:17.137740 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:17.137745 [info]: Connection: keep-alive
+2023-06-06 09:52:17.137752 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:17.137757 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:52:17.137759 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:17.137760 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:52:17.137762 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:17.137763 [info]: 
+2023-06-06 09:52:17.138732 [info]: m_read_idx:462
+2023-06-06 09:52:17.138756 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:17.138815 [info]: adjust timer once
+2023-06-06 09:52:17.138839 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 09:52:17.138964 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:17.138971 [info]: Connection: keep-alive
+2023-06-06 09:52:17.138973 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:17.139026 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:52:17.139031 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:17.139033 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:52:17.139054 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:17.139057 [info]: 
+2023-06-06 09:52:17.139959 [info]: m_read_idx:462
+2023-06-06 09:52:17.139986 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:17.140052 [info]: adjust timer once
+2023-06-06 09:52:17.140087 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 09:52:17.140096 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:17.140099 [info]: Connection: keep-alive
+2023-06-06 09:52:17.140101 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:17.140104 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:52:17.140142 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:17.140146 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:52:17.140148 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:17.140151 [info]: 
+2023-06-06 09:52:17.141191 [info]: m_read_idx:462
+2023-06-06 09:52:17.141221 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:17.141273 [info]: adjust timer once
+2023-06-06 09:52:17.141297 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 09:52:17.141347 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:17.141374 [info]: Connection: keep-alive
+2023-06-06 09:52:17.141378 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:17.141382 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:52:17.141384 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:17.141408 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:52:17.141412 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:17.141438 [info]: 
+2023-06-06 09:52:17.142306 [info]: m_read_idx:462
+2023-06-06 09:52:17.142328 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:17.142383 [info]: adjust timer once
+2023-06-06 09:52:17.142411 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 09:52:17.142510 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:17.142526 [info]: Connection: keep-alive
+2023-06-06 09:52:17.142529 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:17.142531 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:52:17.142567 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:17.142570 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:52:17.142573 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:17.142575 [info]: 
+2023-06-06 09:52:17.143787 [info]: m_read_idx:462
+2023-06-06 09:52:17.143816 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:17.143879 [info]: adjust timer once
+2023-06-06 09:52:17.143905 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 09:52:17.143953 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:17.143959 [info]: Connection: keep-alive
+2023-06-06 09:52:17.143961 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:17.143997 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:52:17.144000 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:17.144003 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:52:17.144005 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:17.144007 [info]: 
+2023-06-06 09:52:17.157685 [info]: m_read_idx:435
+2023-06-06 09:52:17.157868 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:17.158107 [info]: adjust timer once
+2023-06-06 09:52:17.158245 [info]: GET /home/sl/TinyWebServer/new_root/music/%E8%8A%B1%E6%B5%B7.mp3 HTTP/1.1
+2023-06-06 09:52:17.158313 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:17.158318 [info]: Connection: keep-alive
+2023-06-06 09:52:17.158355 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:17.158370 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-06 09:52:17.158373 [info]: Accept: */*
+2023-06-06 09:52:17.158375 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:17.158376 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:17.158411 [info]: Range: bytes=0-
+2023-06-06 09:52:17.158415 [info]: 
+2023-06-06 09:52:32.113932 [info]: m_read_idx:431
+2023-06-06 09:52:32.113994 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:32.114086 [info]: adjust timer once
+2023-06-06 09:52:32.114140 [info]: GET /cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 09:52:32.114208 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:32.114233 [info]: Connection: keep-alive
+2023-06-06 09:52:32.114256 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:32.114261 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:52:32.114264 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:32.114266 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:52:32.114268 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:32.114270 [info]: 
+2023-06-06 09:52:32.118964 [info]: m_read_idx:404
+2023-06-06 09:52:32.119025 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:52:32.119113 [info]: adjust timer once
+2023-06-06 09:52:32.119190 [info]: GET /music/%E8%8A%B1%E6%B5%B7.mp3 HTTP/1.1
+2023-06-06 09:52:32.119267 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:52:32.119273 [info]: Connection: keep-alive
+2023-06-06 09:52:32.119289 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:52:32.119293 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-06 09:52:32.119296 [info]: Accept: */*
+2023-06-06 09:52:32.119298 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:52:32.119300 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:52:32.119301 [info]: Range: bytes=0-
+2023-06-06 09:52:32.119303 [info]: 
+2023-06-06 09:54:12.557480 [info]: m_read_idx:458
+2023-06-06 09:54:12.557557 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:54:12.557663 [info]: adjust timer once
+2023-06-06 09:54:12.557734 [info]: GET /cover/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.jpg HTTP/1.1
+2023-06-06 09:54:12.557745 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:54:12.557747 [info]: Connection: keep-alive
+2023-06-06 09:54:12.557790 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:54:12.557848 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:54:12.557852 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:54:12.557854 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:54:12.557855 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:54:12.557856 [info]: 
+2023-06-06 09:54:12.562724 [info]: m_read_idx:431
+2023-06-06 09:54:12.562818 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:54:12.562892 [info]: adjust timer once
+2023-06-06 09:54:12.562975 [info]: GET /music/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.mp3 HTTP/1.1
+2023-06-06 09:54:12.563040 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:54:12.563046 [info]: Connection: keep-alive
+2023-06-06 09:54:12.563073 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:54:12.563077 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-06 09:54:12.563079 [info]: Accept: */*
+2023-06-06 09:54:12.563081 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:54:12.563131 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:54:12.563135 [info]: Range: bytes=0-
+2023-06-06 09:54:12.563138 [info]: 
+2023-06-06 09:55:46.283822 [info]: m_read_idx:431
+2023-06-06 09:55:46.283904 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:55:46.284002 [info]: adjust timer once
+2023-06-06 09:55:46.284047 [info]: GET /cover/%E6%B6%88%E6%84%81.jpg HTTP/1.1
+2023-06-06 09:55:46.284089 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:55:46.284141 [info]: Connection: keep-alive
+2023-06-06 09:55:46.284148 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:55:46.284165 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:55:46.284184 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:55:46.284189 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:55:46.284192 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:55:46.284249 [info]: 
+2023-06-06 09:55:46.291320 [info]: m_read_idx:404
+2023-06-06 09:55:46.291372 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:55:46.291478 [info]: adjust timer once
+2023-06-06 09:55:46.291663 [info]: 
+2023-06-06 09:55:46.291554 [info]: GET /music/%E6%B6%88%E6%84%81.mp3 HTTP/1.1
+2023-06-06 09:55:46.291644 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:55:46.291649 [info]: Connection: keep-alive
+2023-06-06 09:55:46.291651 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:55:46.291653 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-06 09:55:46.291654 [info]: Accept: */*
+2023-06-06 09:55:46.291658 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:55:46.291659 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:55:46.291661 [info]: Range: bytes=0-
+2023-06-06 09:56:31.258790 [info]: m_read_idx:467
+2023-06-06 09:56:31.258844 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:56:31.258928 [info]: adjust timer once
+2023-06-06 09:56:31.258965 [info]: GET /cover/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.jpg HTTP/1.1
+2023-06-06 09:56:31.258976 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:56:31.259023 [info]: Connection: keep-alive
+2023-06-06 09:56:31.259028 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:56:31.259030 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:56:31.259032 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:56:31.259033 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:56:31.259035 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:56:31.259036 [info]: 
+2023-06-06 09:56:31.263519 [info]: m_read_idx:440
+2023-06-06 09:56:31.263564 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:56:31.263643 [info]: adjust timer once
+2023-06-06 09:56:31.263682 [info]: GET /music/%E4%B8%8D%E8%83%BD%E8%AF%B4%E7%9A%84%E7%A7%98%E5%AF%86.mp3 HTTP/1.1
+2023-06-06 09:56:31.263747 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:56:31.263753 [info]: Connection: keep-alive
+2023-06-06 09:56:31.263769 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:56:31.263773 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-06 09:56:31.263799 [info]: Accept: */*
+2023-06-06 09:56:31.263803 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:56:31.263805 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:56:31.263830 [info]: Range: bytes=0-
+2023-06-06 09:56:31.263834 [info]: 
+2023-06-06 09:57:43.894044 [info]: close fd 23
+2023-06-06 09:57:43.894105 [info]: close fd 16
+2023-06-06 09:57:43.894135 [info]: close fd 16
+2023-06-06 09:57:43.894139 [info]: close fd 24
+2023-06-06 09:57:43.894141 [info]: close fd 16
+2023-06-06 09:57:43.894155 [info]: close fd 18
+2023-06-06 09:57:43.894158 [info]: close fd 17
+2023-06-06 09:57:43.894161 [info]: close fd 16
+2023-06-06 09:57:43.894175 [info]: close fd 16
+2023-06-06 09:58:30.090919 [info]: m_read_idx:431
+2023-06-06 09:58:30.090985 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:58:30.091095 [info]: adjust timer once
+2023-06-06 09:58:30.091248 [info]: 
+2023-06-06 09:58:30.091150 [info]: GET /cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 09:58:30.091198 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:58:30.091214 [info]: Connection: keep-alive
+2023-06-06 09:58:30.091217 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:58:30.091228 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 09:58:30.091231 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:58:30.091233 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 09:58:30.091246 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:58:30.095069 [info]: m_read_idx:404
+2023-06-06 09:58:30.095112 [info]: deal with the client(172.23.0.1)
+2023-06-06 09:58:30.095194 [info]: adjust timer once
+2023-06-06 09:58:30.095277 [info]: GET /music/%E8%8A%B1%E6%B5%B7.mp3 HTTP/1.1
+2023-06-06 09:58:30.095342 [info]: Host: 172.23.1.8:5000
+2023-06-06 09:58:30.095348 [info]: Connection: keep-alive
+2023-06-06 09:58:30.095363 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 09:58:30.095367 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-06 09:58:30.095369 [info]: Accept: */*
+2023-06-06 09:58:30.095384 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 09:58:30.095388 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 09:58:30.095391 [info]: Range: bytes=0-
+2023-06-06 09:58:30.095393 [info]: 
+2023-06-06 09:59:23.894281 [info]: close fd 16
+2023-06-06 09:59:23.894382 [info]: close fd 16
+2023-06-06 10:01:03.894600 [info]: close fd 16
+2023-06-06 10:01:03.894683 [info]: close fd 16
+2023-06-06 10:02:43.894830 [info]: close fd 16
+2023-06-06 10:02:43.894900 [info]: close fd 16
+2023-06-06 10:03:12.371843 [info]: m_read_idx:513
+2023-06-06 10:03:12.371892 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:12.371967 [info]: adjust timer once
+2023-06-06 10:03:12.372044 [info]: GET / HTTP/1.1
+2023-06-06 10:03:12.372054 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:12.372113 [info]: Connection: keep-alive
+2023-06-06 10:03:12.372118 [info]: Pragma: no-cache
+2023-06-06 10:03:12.372120 [info]: Cache-Control: no-cache
+2023-06-06 10:03:12.372121 [info]: Upgrade-Insecure-Requests: 1
+2023-06-06 10:03:12.372123 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:12.372166 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-06 10:03:12.372181 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:12.372185 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:12.372187 [info]: 
+2023-06-06 10:03:12.372748 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:12.372773 [info]: adjust timer once
+2023-06-06 10:03:12.418385 [info]: m_read_idx:419
+2023-06-06 10:03:12.418449 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:12.418549 [info]: adjust timer once
+2023-06-06 10:03:12.418612 [info]: GET /main.css HTTP/1.1
+2023-06-06 10:03:12.418682 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:12.418689 [info]: Connection: keep-alive
+2023-06-06 10:03:12.418690 [info]: Pragma: no-cache
+2023-06-06 10:03:12.418694 [info]: Cache-Control: no-cache
+2023-06-06 10:03:12.418695 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:12.418752 [info]: Accept: text/css,*/*;q=0.1
+2023-06-06 10:03:12.418756 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:12.418774 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:12.418790 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:12.418793 [info]: 
+2023-06-06 10:03:12.420186 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:12.420257 [info]: adjust timer once
+2023-06-06 10:03:12.420277 [info]: m_read_idx:418
+2023-06-06 10:03:12.420297 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:12.420382 [info]: adjust timer once
+2023-06-06 10:03:12.420419 [info]: GET /log.css HTTP/1.1
+2023-06-06 10:03:12.420585 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:12.420649 [info]: Connection: keep-alive
+2023-06-06 10:03:12.420695 [info]: Pragma: no-cache
+2023-06-06 10:03:12.420701 [info]: Cache-Control: no-cache
+2023-06-06 10:03:12.420703 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:12.420740 [info]: Accept: text/css,*/*;q=0.1
+2023-06-06 10:03:12.420744 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:12.420746 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:12.420763 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:12.420766 [info]: 
+2023-06-06 10:03:12.421585 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:12.421640 [info]: adjust timer once
+2023-06-06 10:03:12.426602 [info]: m_read_idx:402
+2023-06-06 10:03:12.426709 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:12.426859 [info]: adjust timer once
+2023-06-06 10:03:12.426909 [info]: m_read_idx:408
+2023-06-06 10:03:12.426930 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:12.427001 [info]: adjust timer once
+2023-06-06 10:03:12.426976 [info]: GET /vue.js HTTP/1.1
+2023-06-06 10:03:12.427033 [info]: GET /axios.min.js HTTP/1.1
+2023-06-06 10:03:12.427042 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:12.427043 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:12.427044 [info]: Connection: keep-alive
+2023-06-06 10:03:12.427051 [info]: Connection: keep-alive
+2023-06-06 10:03:12.427069 [info]: Pragma: no-cache
+2023-06-06 10:03:12.427072 [info]: Cache-Control: no-cache
+2023-06-06 10:03:12.427075 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:12.427213 [info]: Accept: */*
+2023-06-06 10:03:12.427243 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:12.427052 [info]: Pragma: no-cache
+2023-06-06 10:03:12.427288 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:12.427294 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:12.427296 [info]: 
+2023-06-06 10:03:12.427315 [info]: Cache-Control: no-cache
+2023-06-06 10:03:12.427371 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:12.427393 [info]: Accept: */*
+2023-06-06 10:03:12.427397 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:12.427401 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:12.427403 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:12.427452 [info]: 
+2023-06-06 10:03:12.427499 [info]: m_read_idx:403
+2023-06-06 10:03:12.427527 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:12.427598 [info]: adjust timer once
+2023-06-06 10:03:12.428049 [info]: GET /main.js HTTP/1.1
+2023-06-06 10:03:12.428075 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:12.428079 [info]: Connection: keep-alive
+2023-06-06 10:03:12.428081 [info]: Pragma: no-cache
+2023-06-06 10:03:12.428083 [info]: Cache-Control: no-cache
+2023-06-06 10:03:12.428084 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:12.428219 [info]: Accept: */*
+2023-06-06 10:03:12.428226 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:12.428227 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:12.428282 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:12.428287 [info]: 
+2023-06-06 10:03:12.428180 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:12.428373 [info]: adjust timer once
+2023-06-06 10:03:12.428455 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:12.428538 [info]: adjust timer once
+2023-06-06 10:03:12.429023 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:12.429056 [info]: adjust timer once
+2023-06-06 10:03:12.429130 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:12.429198 [info]: adjust timer once
+2023-06-06 10:03:13.235947 [info]: m_read_idx:457
+2023-06-06 10:03:13.236128 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:13.236354 [info]: adjust timer once
+2023-06-06 10:03:13.236603 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:13.236609 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:13.236611 [info]: 
+2023-06-06 10:03:13.236486 [info]: GET /default.png HTTP/1.1
+2023-06-06 10:03:13.236580 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:13.236590 [info]: Connection: keep-alive
+2023-06-06 10:03:13.236592 [info]: Pragma: no-cache
+2023-06-06 10:03:13.236595 [info]: Cache-Control: no-cache
+2023-06-06 10:03:13.236597 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:13.236599 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:03:13.236601 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:13.236791 [info]: m_read_idx:461
+2023-06-06 10:03:13.236828 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:13.236930 [info]: adjust timer once
+2023-06-06 10:03:13.237641 [info]: GET /cover/cover.png HTTP/1.1
+2023-06-06 10:03:13.237680 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:13.237685 [info]: Connection: keep-alive
+2023-06-06 10:03:13.237687 [info]: Pragma: no-cache
+2023-06-06 10:03:13.237688 [info]: Cache-Control: no-cache
+2023-06-06 10:03:13.237690 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:13.237692 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:03:13.237693 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:13.237694 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:13.237780 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:13.237863 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:13.237895 [info]: 
+2023-06-06 10:03:13.237972 [info]: adjust timer once
+2023-06-06 10:03:13.238979 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:13.239023 [info]: adjust timer once
+2023-06-06 10:03:13.287420 [info]: m_read_idx:457
+2023-06-06 10:03:13.287477 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:13.287559 [info]: adjust timer once
+2023-06-06 10:03:13.287596 [info]: GET /favicon.ico HTTP/1.1
+2023-06-06 10:03:13.287656 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:13.287664 [info]: Connection: keep-alive
+2023-06-06 10:03:13.287665 [info]: Pragma: no-cache
+2023-06-06 10:03:13.287667 [info]: Cache-Control: no-cache
+2023-06-06 10:03:13.287669 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:13.287671 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:03:13.287698 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:13.287701 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:13.287703 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:13.287719 [info]: 
+2023-06-06 10:03:13.288225 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:13.288261 [info]: adjust timer once
+2023-06-06 10:03:48.063269 [info]: m_read_idx:521
+2023-06-06 10:03:48.063314 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:48.063388 [info]: adjust timer once
+2023-06-06 10:03:48.063538 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:48.063575 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:48.063581 [info]: 
+2023-06-06 10:03:48.063585 [info]: username=sl&password=1234
+2023-06-06 10:03:48.063466 [info]: POST /2CGISQL.cgi HTTP/1.1
+2023-06-06 10:03:48.063508 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:48.063513 [info]: Connection: keep-alive
+2023-06-06 10:03:48.063515 [info]: Content-Length: 25
+2023-06-06 10:03:48.063529 [info]: Accept: application/json, text/plain, */*
+2023-06-06 10:03:48.063531 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:48.063533 [info]: Content-Type: application/x-www-form-urlencoded
+2023-06-06 10:03:48.063536 [info]: Origin: http://172.23.1.8:5000
+2023-06-06 10:03:48.063570 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:48.063915 [info]: name: sl
+2023-06-06 10:03:48.063967 [info]: name: �
+2023-06-06 10:03:48.064086 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:03:48.064165 [info]: adjust timer once
+2023-06-06 10:03:48.072510 [info]: m_read_idx:462
+2023-06-06 10:03:48.072561 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:48.072682 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:48.072691 [info]: 
+2023-06-06 10:03:48.072631 [info]: adjust timer once
+2023-06-06 10:03:48.072662 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 10:03:48.072672 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:48.072674 [info]: Connection: keep-alive
+2023-06-06 10:03:48.072676 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:48.072678 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:03:48.072679 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:48.072681 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:48.073746 [info]: m_read_idx:462
+2023-06-06 10:03:48.073771 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:48.073892 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:48.073911 [info]: 
+2023-06-06 10:03:48.073835 [info]: adjust timer once
+2023-06-06 10:03:48.073868 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 10:03:48.073877 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:48.073879 [info]: Connection: keep-alive
+2023-06-06 10:03:48.073880 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:48.073888 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:03:48.073889 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:48.073891 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:48.074865 [info]: m_read_idx:462
+2023-06-06 10:03:48.074888 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:48.074951 [info]: adjust timer once
+2023-06-06 10:03:48.075033 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 10:03:48.075101 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:48.075113 [info]: Connection: keep-alive
+2023-06-06 10:03:48.075115 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:48.075117 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:03:48.075118 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:48.075120 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:48.075121 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:48.075122 [info]: 
+2023-06-06 10:03:48.075828 [info]: m_read_idx:435
+2023-06-06 10:03:48.075855 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:48.075994 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:48.076039 [info]: 
+2023-06-06 10:03:48.075923 [info]: adjust timer once
+2023-06-06 10:03:48.075945 [info]: GET /home/sl/TinyWebServer/new_root/music/%E8%8A%B1%E6%B5%B7.mp3 HTTP/1.1
+2023-06-06 10:03:48.075983 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:48.075986 [info]: Connection: keep-alive
+2023-06-06 10:03:48.075988 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:48.075989 [info]: Accept-Encoding: identity;q=1, *;q=0
+2023-06-06 10:03:48.075991 [info]: Accept: */*
+2023-06-06 10:03:48.075992 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:48.076035 [info]: Range: bytes=0-
+2023-06-06 10:03:48.076163 [info]: m_read_idx:462
+2023-06-06 10:03:48.076182 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:03:48.076236 [info]: adjust timer once
+2023-06-06 10:03:48.076505 [info]: GET /home/sl/TinyWebServer/new_root/cover/%E8%8A%B1%E6%B5%B7.jpg HTTP/1.1
+2023-06-06 10:03:48.076570 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:03:48.076576 [info]: Connection: keep-alive
+2023-06-06 10:03:48.076577 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:03:48.076589 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:03:48.076602 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:03:48.076605 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:03:48.076607 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:03:48.076609 [info]: 
+2023-06-06 10:04:23.895033 [info]: close fd 16
+2023-06-06 10:04:23.895105 [info]: close fd 16
+2023-06-06 10:09:23.895600 [info]: close fd 17
+2023-06-06 10:09:23.895676 [info]: close fd 16
+
+2023-06-06 10:47:55.322778 [info]: m_read_idx:496
+2023-06-06 10:47:55.322838 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.322856 [info]: adjust timer once
+2023-06-06 10:47:55.322922 [info]: GET / HTTP/1.1
+2023-06-06 10:47:55.323041 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.323046 [info]: Connection: keep-alive
+2023-06-06 10:47:55.323048 [info]: Cache-Control: max-age=0
+2023-06-06 10:47:55.323093 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.323106 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.323108 [info]: 
+2023-06-06 10:47:55.323049 [info]: oop!unknow header: Cache-Control: max-age=0
+2023-06-06 10:47:55.323077 [info]: Upgrade-Insecure-Requests: 1
+2023-06-06 10:47:55.323081 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2023-06-06 10:47:55.323082 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.323086 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.323088 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-06 10:47:55.323089 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2023-06-06 10:47:55.323090 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.323091 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.323548 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.323580 [info]: adjust timer once
+2023-06-06 10:47:55.385497 [info]: m_read_idx:376
+2023-06-06 10:47:55.385571 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.385696 [info]: adjust timer once
+2023-06-06 10:47:55.385771 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-06 10:47:55.385803 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.385726 [info]: m_read_idx:375
+2023-06-06 10:47:55.385745 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.385752 [info]: GET /main.css HTTP/1.1
+2023-06-06 10:47:55.385763 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.385765 [info]: Connection: keep-alive
+2023-06-06 10:47:55.385767 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.385768 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.385770 [info]: Accept: text/css,*/*;q=0.1
+2023-06-06 10:47:55.385771 [info]: adjust timer once
+2023-06-06 10:47:55.385810 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.385837 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.385821 [info]: GET /log.css HTTP/1.1
+2023-06-06 10:47:55.385898 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.385984 [info]: oop!unknow header: Accept: text/css,*/*;q=0.1
+2023-06-06 10:47:55.385998 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.386002 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.385900 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.385955 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.385965 [info]: Connection: keep-alive
+2023-06-06 10:47:55.385972 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.385967 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.385978 [info]: 
+2023-06-06 10:47:55.385974 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.385983 [info]: Accept: text/css,*/*;q=0.1
+2023-06-06 10:47:55.385997 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.386004 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.386098 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.386121 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.386127 [info]: 
+2023-06-06 10:47:55.386399 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.386438 [info]: adjust timer once
+2023-06-06 10:47:55.386705 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.386744 [info]: adjust timer once
+2023-06-06 10:47:55.389014 [info]: m_read_idx:359
+2023-06-06 10:47:55.389119 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.389318 [info]: adjust timer once
+2023-06-06 10:47:55.389347 [info]: m_read_idx:365
+2023-06-06 10:47:55.389353 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.389448 [info]: GET /vue.js HTTP/1.1
+2023-06-06 10:47:55.389507 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.389523 [info]: adjust timer once
+2023-06-06 10:47:55.389590 [info]: m_read_idx:360
+2023-06-06 10:47:55.389598 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.389629 [info]: Connection: keep-alive
+2023-06-06 10:47:55.389640 [info]: GET /axios.min.js HTTP/1.1
+2023-06-06 10:47:55.389797 [info]: Accept: */*
+2023-06-06 10:47:55.389666 [info]: adjust timer once
+2023-06-06 10:47:55.389849 [info]: oop!unknow header: Accept: */*
+2023-06-06 10:47:55.389711 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.389760 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.389763 [info]: Accept: */*
+2023-06-06 10:47:55.389711 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.389786 [info]: Connection: keep-alive
+2023-06-06 10:47:55.389765 [info]: oop!unknow header: Accept: */*
+2023-06-06 10:47:55.389789 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.389795 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.389961 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.389991 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.389997 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.390000 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.390002 [info]: 
+2023-06-06 10:47:55.389860 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.389906 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.389911 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.389913 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.389914 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.389915 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.389916 [info]: 
+2023-06-06 10:47:55.389793 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.389955 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.389706 [info]: GET /main.js HTTP/1.1
+2023-06-06 10:47:55.390108 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.390170 [info]: Connection: keep-alive
+2023-06-06 10:47:55.390177 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.390252 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.390277 [info]: Accept: */*
+2023-06-06 10:47:55.390282 [info]: oop!unknow header: Accept: */*
+2023-06-06 10:47:55.390336 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.390344 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.390399 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.390404 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.390407 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.390409 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.390424 [info]: 
+2023-06-06 10:47:55.390340 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.390548 [info]: adjust timer once
+2023-06-06 10:47:55.390610 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.390670 [info]: adjust timer once
+2023-06-06 10:47:55.390778 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.390803 [info]: adjust timer once
+2023-06-06 10:47:55.391092 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.391158 [info]: adjust timer once
+2023-06-06 10:47:55.507541 [info]: m_read_idx:414
+2023-06-06 10:47:55.507630 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.507707 [info]: adjust timer once
+2023-06-06 10:47:55.507843 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.507891 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.507902 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.507950 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.507973 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.507993 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.508001 [info]: 
+2023-06-06 10:47:55.507849 [info]: GET /cover/cover.png HTTP/1.1
+2023-06-06 10:47:55.508112 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.508122 [info]: Connection: keep-alive
+2023-06-06 10:47:55.508125 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.508127 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.508130 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:47:55.508132 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:47:55.508134 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.507732 [info]: m_read_idx:418
+2023-06-06 10:47:55.507738 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.507775 [info]: GET /default.png HTTP/1.1
+2023-06-06 10:47:55.507825 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.507831 [info]: Connection: keep-alive
+2023-06-06 10:47:55.507834 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.507836 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.507838 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:47:55.507840 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:47:55.508148 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.507791 [info]: adjust timer once
+2023-06-06 10:47:55.508257 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.508308 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.508313 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.508314 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.508315 [info]: 
+2023-06-06 10:47:55.508481 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.508541 [info]: adjust timer once
+2023-06-06 10:47:55.508774 [info]: send data to the client(172.23.0.1)
+2023-06-06 10:47:55.508822 [info]: adjust timer once
+2023-06-06 10:47:55.552919 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2023-06-06 10:47:55.552954 [info]: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.552961 [info]: oop!unknow header: Referer: http://172.23.1.8:5000/
+2023-06-06 10:47:55.552964 [info]: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.552966 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2023-06-06 10:47:55.552968 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.552970 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2023-06-06 10:47:55.552973 [info]: 
+2023-06-06 10:47:55.552674 [info]: m_read_idx:414
+2023-06-06 10:47:55.552726 [info]: deal with the client(172.23.0.1)
+2023-06-06 10:47:55.552827 [info]: adjust timer once
+2023-06-06 10:47:55.552877 [info]: GET /favicon.ico HTTP/1.1
+2023-06-06 10:47:55.552890 [info]: Host: 172.23.1.8:5000
+2023-06-06 10:47:55.552894 [info]: Connection: keep-alive
+2023-06-06 10:47:55.552912 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.552916 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37
+2023-06-06 10:47:55.552917 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8

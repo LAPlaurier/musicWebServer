@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音乐播放器</title>
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1367495_eza6utwbiqn.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="/vue.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <link href="https://production-assets.paperswithcode.com/static/css/main.cd7ec85b.chunk.css" rel="stylesheet">
+  <style>
+    @import url(log.css);
+  </style>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1058.0" data-gr-ext-installed="">
+  <div id="music">
+    <div v-show="mainpageshow" id="app">
+      <header class="mm-header"><h1 class="header"></h1>
+        <h1 class="header">在线音乐播放器 </h1>
+        <dl class="user">
+          <div v-show="loginshow" id='useravatar' class="user-avatar"> 
+            <img v-show="Show" :src='imgUrlFromServer'  class="nav-link-user-img" title="点击更换头像">
+            <div class="modify-avatar">
+                <input v-show="Show" id="upload-img" class="file" type="file" name="img" title="更换头像" @change="chooseImg" />
+                <canvas class="avatarcanvas" ref="imgPreview" height="0" width="0"></canvas> 
+            </div>
+          </div> 
+          <div v-show="nologshow" class="login"  @click="login">
+            登录
+          </div>
+       </dl>
+      </header>
+      <div v-show="noShow" class="dialog">
+        <p class="header">是否修改头像</p>
+        <div class="footer">
+            <button @click="uploadimg" class="confirm">确认</button>
+            <button @click="nouploadimg" class="cancel">取消</button>
+        </div>
+    </div>
+      <div class="music router-view">
+        <div class="music-content">
+          <div class="music-left">
+            <div data-v-a4e61d46="" class="music-btn">
+              <span data-v-a4e61d46="" class="active">正在播放
+              </span>
+            </div>
+            <div class="playList music-list">
+              <div data-v-d5324632="" class="musicList">
+                <div data-v-d5324632="" class="list-item list-header">
+                  <span data-v-d5324632="" class="list-name">歌曲
+                  </span>
+                  <span data-v-d5324632="" class="list-artist">歌手
+                  </span>
+                  <span data-v-d5324632="" class="list-time">时长
+                  </span>
+                </div>
+                <div data-v-d5324632="" class="list-content">
+                <div data-v-d5324632=""  v-for="(item, ind) in music_title" class="list-item" :key="ind" @mouseover="mouseover(ind)" @mouseleave="mouseleave(ind)">
+                  <span data-v-d5324632="" class="list-num"> {{ind+1}}
+                  </span>
+                  <div data-v-d5324632="" class="list-name">
+                    <span data-v-d5324632="">{{item}}
+                    </span>
+                    <div v-show="hovershow[ind]" data-v-d5324632="" class="list-menu">
+                      <i data-v-d5324632=""  @click = "menuplayMusic(ind)" class="hover iconfont icon-play-mini" style="font-size: 40px;">
+                      </i>
+                      <!-- 自己添加的心形按键 -->
+                      <i  data-v-d5324632="" class="hover iconfont icon-heart-mini" style="font-size: 40px;">
+                      </i>
+                      
+                    </div>
+                  </div>
+                  <span data-v-d5324632="" class="list-artist">{{music_autor[ind]}} 
+                  </span>
+                  <span  data-v-d5324632="" class="list-time" > {{music_time[ind]}} 
+                  </span>
+                  <!-- <span v-show="hovershow[ind]" class="icon-del">
+                    <i  data-v-d5324632="" class="hover list-menu-icon-del iconfont icon-delete-mini" style="font-size: 40px;">
+                    </i>
+                  </span> -->
+                </div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <div class="music-right">
+               
+                <div data-v-4f8466fe="">
+                  <dl data-v-4f8466fe="" class="music-info">
+                    <dt data-v-4f8466fe="" class="rotate-class" id="my-element">
+                      <img data-v-4f8466fe="" :src="cover">
+                    </dt>
+                    <dd data-v-4f8466fe="">歌曲名：{{title}}</dd>
+                    <dd data-v-4f8466fe="">歌手名：{{author}}</dd>
+                  
+                    <dd data-v-4f8466fe="">
+                    </dd>
+                  </dl>
+                  <div data-v-4f8466fe="" class="music-lyric">
+                    <!-- 添加class="music-lyric-items" style="transform: translate3d(0px, 0px, 0px);"，使得main.js中startRotate函数里的document.getElementById("my-element");能正确找到该element -->
+                    <div data-v-4f8466fe="" class="music-lyric-items" style="transform: translate3d(0px, 0px, 0px);">
+                      <p v-if = "!isPlaying" data-v-4f8466fe="">
+                        还没有播放音乐哦！
+                      </p>
+                      <p v-if = "isPlaying" data-v-4f8466fe="">
+                        正在播放音乐哦！
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="music-bar">
+          <div class="music-bar-btns">
+            <i class="pointer iconfont icon-prev" @click = "lastMusic" title="上一曲 Ctrl + Left" style="font-size: 36px;">
+            </i>
+            <div title="播放暂停 Ctrl + Space" class="control-play pointer" >
+              <i class="iconfont icon-pause"  v-if = "isPlaying" @click = "pauseMusic" style="font-size: 24px;">
+              </i>
+              <i class="iconfont icon-play" v-if = "!isPlaying" @click = "playMusic" style="font-size: 24px;"></i>
+            </div>
+            <i class="pointer iconfont icon-next" @click = "nextMusic" title="下一曲 Ctrl + Right" style="font-size: 36px;">
+            </i>
+          </div>
+          <div class="music-music">
+            <div class="music-bar-info">  {{playtitle}}
+              <span>-  {{author}}
+              </span>
+            </div>
+            <div class="music-bar-time"> {{currentTime()}}/ {{duration()}}
+            </div>
+            <div class="mmProgress music-progress">
+              <div class="mmProgress-bar" @click="handleProgressClick" ref="p">
+              </div>
+              <div class="mmProgress-outer" :style = " 'width' + videoProgressPercent">
+              </div>
+              <div class="mmProgress-inner" :style = " 'left:' + videoProgressPercent">
+                <div class="mmProgress-dot"> 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 点击按钮上传文件 -->
+          <div>
+            <input id="upload-mp3" class="file" type="file" name="mp3" title="上传文件" @change="uploadMP3File" />
+          </div>
+          <!-- <i class="icon-color pointer mode iconfont icon-random" title="随机播放 Ctrl + O" style="font-size: 30px;"></i><i class="icon-color pointer comment iconfont icon-comment" style="font-size: 30px;">
+          </i>
+          <div title="音量加减" class="music-bar-volume">
+            <div data-v-256fedce="" class="volume">
+              <i data-v-256fedce="" class="pointer volume-icon iconfont icon-volume" style="font-size: 30px;">
+              </i>
+              <div data-v-256fedce="" class="volume-progress-wrapper">
+                <div data-v-256fedce="" class="mmProgress">
+                  <div class="mmProgress-bar">  
+                  </div>
+                  <div class="mmProgress-outer">
+                  </div>
+                  <div class="mmProgress-inner" style="width: 36px;">
+                    <div class="mmProgress-dot" :style = " 'left:' + videoProgressPercent">  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+       <!-- 音频控件 -->
+      <div>
+          <audio id = "player" ref="v" :src="src"
+          @canplay = "handleCanPlay"
+          @timeupdate = "handleTimeUpdate">
+          </audio>
+      </div>
+    </div>
+    
+    <div class="login">
+      <div v-show="loginpage" class="container">
+        <section class="section">
+            <div class="card1"><div class="box"></div></div>
+            <div class="card1"><div class="box"></div></div>
+            <div class="card">
+                <div class="container-fluid">
+                    <div class="panel-heading" style="color:#000;">登录</div>
+                        <div class='divform'>
+                            <div class="form-group">
+                                <label for="username">用户名</label>
+                                <input type="text" class="form-control" id="username" name="username" placeholder=""
+                                 v-model="userinfo.username" value="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">密码</label>
+                                <input type="password" class="form-control" id="password" name="password" placeholder=""
+                                v-model="userinfo.password" value="password">
+                            </div>
+                            <p style="color:#000;">{{loginfailtips}}</p>
+                            <div class="login-submit">
+                                <button id="login-btn" type="submit" class="btn btn-primary" data-cy="login-button" @click="loginsubmit">登录</button>
+                                <span class="create-new-account" style="color:#000;"> or &nbsp;
+                                    <a id="register-link" @click="registerlink" style="text-decoration: underline">   注册</a>
+                                </span>       
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+      <div v-show="registerpage" class="container">
+        <section class="section">
+            <div class="card1"><div class="box"></div></div>
+            <div class="card1"><div class="box"></div></div>
+            <div class="card">
+                <div class="container-fluid">
+                    <div class="panel-heading" style="color:#000;">注册</div>
+                        <div class='divform'>
+                            <div class="form-group">
+                                <label for="username">用户名</label>
+                                <input type="text" class="form-control" id="regusername" name="username" placeholder=""
+                                 v-model="reguserinfo.username" value="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">密码</label>
+                                <input type="password" class="form-control" id="regpassword" name="password" placeholder=""
+                                v-model="reguserinfo.password" value="password">
+                            </div>
+                            <p style="color:#000;">{{loginfailtips}}</p>
+                            <div class="login-submit">
+                                <button id="login-btn" type="submit" class="btn btn-primary" data-cy="login-button" @click="registersubmit">注册</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+    </div>
+  </div>
+    
+</body>
+<script src="axios.min.js"></script>
+<script src="main.js"></script>
+</html>
